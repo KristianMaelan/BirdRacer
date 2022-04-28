@@ -1,0 +1,15 @@
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Editor-Win64-DebugGame.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Game-Win64-DebugGame.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Editor-Win64-Shipping.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Editor.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Game-Win64-Shipping.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacer-Win64-Shipping.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/UE4Game.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacerEditor.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacer-Win64-DebugGame.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacer.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacerEditor-Win64-DebugGame.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/BirdRacerEditor-Win64-Shipping.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/FakeTarget.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir

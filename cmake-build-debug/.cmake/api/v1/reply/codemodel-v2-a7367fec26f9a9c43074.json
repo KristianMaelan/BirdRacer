@@ -1,0 +1,696 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UE4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-271b958ad49937ed7969.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Debug-b726aa7f0220281504df.json",
+					"name" : "BirdRacer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-DebugGame-Debug-4d07ffcbe9960eed4c3d.json",
+					"name" : "BirdRacer-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-Shipping-Debug-9cff17eed16f629f1722.json",
+					"name" : "BirdRacer-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Debug-191bff259875e046f6fc.json",
+					"name" : "BirdRacerEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-DebugGame-Debug-fd13209706508ef55af7.json",
+					"name" : "BirdRacerEditor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-Shipping-Debug-e4ca727bde0e5fcee348.json",
+					"name" : "BirdRacerEditor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FakeTarget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FakeTarget-Debug-e4c4a474adbb804de3da.json",
+					"name" : "FakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Debug-c94bbffea3873271717a.json",
+					"name" : "UE4Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-DebugGame-Debug-62b79f974f5b790e2d30.json",
+					"name" : "UE4Editor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-Shipping-Debug-104ea567702853defebb.json",
+					"name" : "UE4Editor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Debug-ec888506677317fc1b47.json",
+					"name" : "UE4Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-DebugGame-Debug-e22bf31901794c97acf3.json",
+					"name" : "UE4Game-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-Shipping-Debug-829cb6a6f731ee8e5b0b.json",
+					"name" : "UE4Game-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-390a58742e513d22646a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UE4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-271b958ad49937ed7969.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Release-b726aa7f0220281504df.json",
+					"name" : "BirdRacer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-DebugGame-Release-4d07ffcbe9960eed4c3d.json",
+					"name" : "BirdRacer-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-Shipping-Release-9cff17eed16f629f1722.json",
+					"name" : "BirdRacer-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Release-191bff259875e046f6fc.json",
+					"name" : "BirdRacerEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-DebugGame-Release-fd13209706508ef55af7.json",
+					"name" : "BirdRacerEditor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-Shipping-Release-e4ca727bde0e5fcee348.json",
+					"name" : "BirdRacerEditor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FakeTarget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FakeTarget-Release-823ddfb3927f2017956f.json",
+					"name" : "FakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Release-c94bbffea3873271717a.json",
+					"name" : "UE4Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-DebugGame-Release-62b79f974f5b790e2d30.json",
+					"name" : "UE4Editor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-Shipping-Release-104ea567702853defebb.json",
+					"name" : "UE4Editor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Release-ec888506677317fc1b47.json",
+					"name" : "UE4Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-DebugGame-Release-e22bf31901794c97acf3.json",
+					"name" : "UE4Game-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-Shipping-Release-829cb6a6f731ee8e5b0b.json",
+					"name" : "UE4Game-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-390a58742e513d22646a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UE4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-271b958ad49937ed7969.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-MinSizeRel-b726aa7f0220281504df.json",
+					"name" : "BirdRacer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-DebugGame-MinSizeRel-4d07ffcbe9960eed4c3d.json",
+					"name" : "BirdRacer-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-Shipping-MinSizeRel-9cff17eed16f629f1722.json",
+					"name" : "BirdRacer-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-MinSizeRel-191bff259875e046f6fc.json",
+					"name" : "BirdRacerEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-DebugGame-MinSizeRel-fd13209706508ef55af7.json",
+					"name" : "BirdRacerEditor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-Shipping-MinSizeRel-e4ca727bde0e5fcee348.json",
+					"name" : "BirdRacerEditor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FakeTarget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FakeTarget-MinSizeRel-ad81ed1a92dd1313c514.json",
+					"name" : "FakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-MinSizeRel-c94bbffea3873271717a.json",
+					"name" : "UE4Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-DebugGame-MinSizeRel-62b79f974f5b790e2d30.json",
+					"name" : "UE4Editor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-Shipping-MinSizeRel-104ea567702853defebb.json",
+					"name" : "UE4Editor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-MinSizeRel-ec888506677317fc1b47.json",
+					"name" : "UE4Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-DebugGame-MinSizeRel-e22bf31901794c97acf3.json",
+					"name" : "UE4Game-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-Shipping-MinSizeRel-829cb6a6f731ee8e5b0b.json",
+					"name" : "UE4Game-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-390a58742e513d22646a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UE4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-271b958ad49937ed7969.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-RelWithDebInfo-b726aa7f0220281504df.json",
+					"name" : "BirdRacer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-DebugGame-RelWithDebInfo-4d07ffcbe9960eed4c3d.json",
+					"name" : "BirdRacer-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacer-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacer-Win64-Shipping-RelWithDebInfo-9cff17eed16f629f1722.json",
+					"name" : "BirdRacer-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-RelWithDebInfo-191bff259875e046f6fc.json",
+					"name" : "BirdRacerEditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-DebugGame-RelWithDebInfo-fd13209706508ef55af7.json",
+					"name" : "BirdRacerEditor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BirdRacerEditor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BirdRacerEditor-Win64-Shipping-RelWithDebInfo-e4ca727bde0e5fcee348.json",
+					"name" : "BirdRacerEditor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FakeTarget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FakeTarget-RelWithDebInfo-77cb5ef7c7ba914752c0.json",
+					"name" : "FakeTarget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-RelWithDebInfo-c94bbffea3873271717a.json",
+					"name" : "UE4Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-DebugGame-RelWithDebInfo-62b79f974f5b790e2d30.json",
+					"name" : "UE4Editor-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Editor-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Editor-Win64-Shipping-RelWithDebInfo-104ea567702853defebb.json",
+					"name" : "UE4Editor-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-RelWithDebInfo-ec888506677317fc1b47.json",
+					"name" : "UE4Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-DebugGame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-DebugGame-RelWithDebInfo-e22bf31901794c97acf3.json",
+					"name" : "UE4Game-Win64-DebugGame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UE4Game-Win64-Shipping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UE4Game-Win64-Shipping-RelWithDebInfo-829cb6a6f731ee8e5b0b.json",
+					"name" : "UE4Game-Win64-Shipping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-390a58742e513d22646a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug",
+		"source" : "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

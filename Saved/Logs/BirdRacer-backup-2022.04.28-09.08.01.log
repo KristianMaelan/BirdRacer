@@ -1,0 +1,1170 @@
+﻿Log file open, 04/27/22 17:48:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: BirdRacer
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.364468
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.30:980][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.04.27-15.48.30:980][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.04.27-15.48.30:981][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.30:981][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.31:031][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.27-15.48.31:031][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.27-15.48.31:033][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.04.27-15.48.31:034][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.04.27-15.48.31:035][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.27-15.48.31:036][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.04.27-15.48.31:037][  0]LogHAL: Display: Platform has ~ 32 GB [34201673728 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.04.27-15.48.31:037][  0]LogInit: Going up to parent DeviceProfile []
+[2022.04.27-15.48.31:037][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.04.27-15.48.31:037][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.04.27-15.48.31:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.04.27-15.48.31:039][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Scalability.ini]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.04.27-15.48.31:040][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.04.27-15.48.31:041][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.04.27-15.48.31:041][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.04.27-15.48.31:041][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.04.27-15.48.31:041][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
+[2022.04.27-15.48.31:041][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Editor.ini]
+[2022.04.27-15.48.31:042][  0]LogInit: Computer: KMM-ROG
+[2022.04.27-15.48.31:042][  0]LogInit: User: krist
+[2022.04.27-15.48.31:042][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.04.27-15.48.31:042][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.04.27-15.48.31:042][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.04.27-15.48.31:042][  0]LogMemory: Platform Memory Stats for Windows
+[2022.04.27-15.48.31:042][  0]LogMemory: Process Physical Memory: 150.07 MB used, 150.07 MB peak
+[2022.04.27-15.48.31:042][  0]LogMemory: Process Virtual Memory: 126.11 MB used, 126.11 MB peak
+[2022.04.27-15.48.31:042][  0]LogMemory: Physical Memory: 13598.58 MB used,  19018.68 MB free, 32617.26 MB total
+[2022.04.27-15.48.31:042][  0]LogMemory: Virtual Memory: 134196048.00 MB used,  21678.88 MB free, 134217728.00 MB total
+[2022.04.27-15.48.31:052][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.04.27-15.48.31:496][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.04.27-15.48.31:498][  0]LogInit: Using OS detected language (nb-NO).
+[2022.04.27-15.48.31:498][  0]LogInit: Using OS detected locale (nb-NO).
+[2022.04.27-15.48.31:526][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
+[2022.04.27-15.48.32:386][  0]LogInit: Setting process to per monitor DPI aware
+[2022.04.27-15.48.32:414][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.27-15.48.32:523][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.04.27-15.48.32:523][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.04.27-15.48.36:011][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2022.04.27-15.48.36:026][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2022.04.27-15.48.36:026][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.04.27-15.48.36:026][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.04.27-15.48.36:026][  0]LogD3D11RHI: D3D11 adapters:
+[2022.04.27-15.48.36:181][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2022.04.27-15.48.36:181][  0]LogD3D11RHI:       5980/0/16308 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.04.27-15.48.36:221][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.04.27-15.48.36:221][  0]LogD3D11RHI:       128/0/16308 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:       0/0/16308 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:     DeviceId    : 1f11
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:     SubSysId    : 1f8e1043
+[2022.04.27-15.48.36:224][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.04.27-15.48.36:225][  0]LogD3D11RHI:     DedicatedVideoMemory : 6270484480 bytes
+[2022.04.27-15.48.36:225][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.04.27-15.48.36:225][  0]LogD3D11RHI:     SharedSystemMemory : 17100836864 bytes
+[2022.04.27-15.48.36:225][  0]LogD3D11RHI:     AdapterLuid : 0 74508
+[2022.04.27-15.48.36:248][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.04.27-15.48.36:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2022.04.27-15.48.36:248][  0]LogWindows: EnumDisplayDevices:
+[2022.04.27-15.48.36:249][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2022.04.27-15.48.36:249][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.04.27-15.48.36:249][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.04.27-15.48.36:250][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2022.04.27-15.48.36:250][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.04.27-15.48.36:250][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.04.27-15.48.36:251][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2022.04.27-15.48.36:251][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:      Driver Date: 3-17-2022
+[2022.04.27-15.48.36:251][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 2060
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     VendorId    : 10de
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     DeviceId    : 1f11
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     SubSysId    : 1f8e1043
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     Revision    : 00a1
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     DedicatedVideoMemory : 6270484480 bytes
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     SharedSystemMemory : 17100836864 bytes
+[2022.04.27-15.48.36:251][  0]LogD3D11RHI:     AdapterLuid : 0 74508
+[2022.04.27-15.48.36:323][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.04.27-15.48.36:324][  0]LogD3D11RHI: Async texture creation enabled
+[2022.04.27-15.48.36:324][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.04.27-15.48.36:381][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.04.27-15.48.36:445][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.04.27-15.48.37:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.04.27-15.48.37:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.04.27-15.48.37:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.04.27-15.48.37:286][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.04.27-15.48.37:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.04.27-15.48.37:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.04.27-15.48.37:376][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.04.27-15.48.37:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.04.27-15.48.37:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.04.27-15.48.37:460][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.04.27-15.48.37:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.04.27-15.48.37:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.04.27-15.48.37:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.04.27-15.48.37:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.04.27-15.48.37:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.04.27-15.48.37:633][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.04.27-15.48.37:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.04.27-15.48.37:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.04.27-15.48.37:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.04.27-15.48.37:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.04.27-15.48.37:773][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.04.27-15.48.37:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.04.27-15.48.37:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.04.27-15.48.37:842][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.04.27-15.48.37:940][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.04.27-15.48.38:219][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.04.27-15.48.38:638][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.04.27-15.48.38:641][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Intermediate/Shaders/WorkingDirectory/169600/).
+[2022.04.27-15.48.38:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/krist/AppData/Local/Temp/UnrealShaderWorkingDir/A6DF29D442E8FEC02CC9A6B7453B6786/'.
+[2022.04.27-15.48.38:642][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.04.27-15.48.38:642][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.04.27-15.48.38:642][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.04.27-15.48.42:848][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.04.27-15.48.43:054][  0]LogDerivedDataCache: Loaded boot cache 0.20s 94MB C:/Users/krist/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.04.27-15.48.43:054][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/krist/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.04.27-15.48.43:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.04.27-15.48.43:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.04.27-15.48.43:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.27-15.48.43:057][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.04.27-15.48.43:099][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.04.27-15.48.43:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.04.27-15.48.43:099][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.04.27-15.48.43:148][  0]LogDerivedDataCache: Speed tests for C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.05 seconds
+[2022.04.27-15.48.43:148][  0]LogDerivedDataCache: Display: Performance to C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.92ms. RandomReadSpeed=32.83MBs, RandomWriteSpeed=100.37MBs. Assigned SpeedClass 'Local'
+[2022.04.27-15.48.43:149][  0]LogDerivedDataCache: Using Local data cache path C:/Users/krist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.04.27-15.48.43:149][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.04.27-15.48.43:149][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.04.27-15.48.43:259][  0]LogSlate: Using FreeType 2.10.0
+[2022.04.27-15.48.43:285][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.04.27-15.48.43:460][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2022.04.27-15.48.44:402][  0]LogInit: Selected Device Profile: [Windows]
+[2022.04.27-15.48.44:402][  0]LogInit: Active device profile: [00000135BE308B00][00000135BCDD0800 49] Windows
+[2022.04.27-15.48.44:402][  0]LogInit: Profiles: [00000135BE308B00][00000135BCDD0800 49] Windows, [00000135BE29A100][00000135BCDCC940 49] WindowsNoEditor, [00000135BE309900][00000135BCDF8A80 49] WindowsServer, [00000135BE29AE00][00000135BCC34BC0 49] WindowsClient, [00000135BE30BC00][00000135BCC3CD40 49] IOS, [00000135BE298F00][00000135BCC66EC0 49] iPadAir, [00000135BE30BE00][00000135BCC6B040 49] iPadAir2, [00000135BF464E00][00000135BCC7B300 49] IPadPro, [00000135BF464F00][00000135BCC73340 49] iPadAir3, [00000135BE29BB00][00000135BCC874C0 49] iPadAir4, [00000135BF467800][00000135BCD2B640 49] iPadMini2, [00000135BE29AF00][00000135BCD2F7C0 49] iPadMini3, [00000135BF467A00][00000135BCD33940 49] iPadMini4, [00000135BE29B800][00000135BCD37AC0 49] iPadMini5, [00000135BF490600][00000135B41C6200 49] iPhone6, [00000135BF490700][00000135BCD3A240 49] iPodTouch6, [00000135BE30A800][00000135B41CE500 49] iPhone7, [00000135BE30A600][00000135B41CA540 49] iPodTouch7, [00000135BF490100][00000135B41D26C0 49] iPhone5S, [00000135BF464700][00000135B41D6840 49] iPhone6Plus, [00000135BF492500][00000135BCC38980 49] iPhone6S, [00000135BF465300][00000135B41DAAC0 49] iPhone6SPlus, [00000135BF493B00][00000135B46E2C00 49] iPhone7Plus, [00000135BF467700][00000135B46E6D40 49] iPhoneSE, [00000135BE30AB00][00000135B41DEEC0 49] iPhone8, [00000135BF464600][00000135B41E3040 49] iPhone8Plus, [00000135BE30A100][00000135B41E71C0 49] iPhoneX, [00000135BF466900][00000135B41EB340 49] iPhoneXS, [00000135BE30B700][00000135B41EF4C0 49] iPhoneXSMax, [00000135BF466F00][00000135B41F3640 49] iPhoneXR, [00000135BE30BB00][00000135B41F77C0 49] iPhone11, [00000135BF465E00][00000135C07F7940 49] iPhone11Pro, [00000135BE308700][00000135C07FBAC0 49] iPhone11ProMax, [00000135BF466000][00000135C07FE0C0 49] iPhoneSE2, [00000135BE30BA00][00000135C091C240 49] iPhone12Mini, [00000135BF466100][00000135C09243C0 49] iPhone12, [00000135BE308600][00000135C0932540 49] iPhone12Pro, [00000135BF467400][00000135C09366C0 49] iPhone12ProMax, [00000135BE308800][00000135C093A840 49] iPadPro105, [00000135BF465900][00000135C093E9C0 49] iPadPro129, [00000135BE30BF00][00000135C0942B40 49] iPadPro97, [00000135BF467C00][00000135B46EAC80 49] iPadPro2_129, [00000135BE30B900][00000135C0946DC0 49] iPad5, [00000135BF464300][00000135C094AF00 49] iPad6, [00000135BE309B00][00000135C0967080 49] iPad7, [00000135BF467600][00000135C09CF200 49] iPad8, [00000135BE309600][00000135C09D7380 49] iPadPro11, [00000135BF466D00][00000135C09DB500 49] iPadPro2_11, [00000135BE309A00][00000135C09DF680 49] iPadPro3_129, [00000135BF466E00][00000135C0A21800 49] iPadPro4_129, [00000135BE308500][00000135C0A29980 49] AppleTV, [00000135BF467000][00000135C0A2DB00 49] AppleTV4K, [00000135BE309C00][00000135BCD3E100 49] TVOS, [00000135BF464800][00000135BCD42280 49] Mac, [00000135BE30A500][00000135BCD46400 49] MacClient, [00000135BF466C00][00000135BCD54580 49] MacNoEditor, [00000135BE30B500][00000135BCD58700 49] MacServer, [00000135BF464A00][00000135C0A24880 49] Linux, [00000135BE308400][00000135C09E2A00 49] LinuxAArch64, [00000135BF465A00][00000135C09D2B80 49] LinuxNoEditor, [00000135BE309D00][00000135BCD5CD00 49] LinuxAArch64NoEditor, [00000135BF466700][00000135C0962E40 49] LinuxClient, [00000135BE309400][00000135AC804F80 49] LinuxAArch64Client, [00000135BF466800][00000135AC8090C0 49] LinuxServer, [00000135BE30AF00][00000135AC811240 49] LinuxAArch64Server, [00000135BF465700][00000135AC8153C0 49] Android, [00000135BE30BD00][00000135AC819540 49] Android_Low, [00000135BF464B00][00000135AC81D6C0 49] Android_Mid, [00000135BE30A200][00000135C09E7840 49] Android_High, [00000135BF464C00][00000135C09EB9C0 49] Android_Default, [00000135BE309300][00000135C09EFB40 49] Android_Adreno4xx, [00000135BE29A300][00000135C09F2140 49] Android_Adreno5xx_Low, [00000135BF491C00][00000135C09F62C0 49] Android_Adreno5xx, [00000135BE29A600][00000135C09FA440 49] Android_Adreno6xx, [00000135BF492000][00000135C09FE5C0 49] Android_Adreno6xx_Vulkan, [00000135BE298400][00000135C0A02740 49] Android_Mali_T6xx, [00000135BF490F00][00000135C0A068C0 49] Android_Mali_T7xx, [00000135BE299C00][00000135C0A0AA40 49] Android_Mali_T8xx, [00000135BF491F00][00000135C0A0EBC0 49] Android_Mali_G71, [00000135BE29A800][00000135C0A12D40 49] Android_Mali_G72, [00000135BF493300][00000135C0A16EC0 49] Android_Mali_G72_Vulkan, [00000135BE29BE00][00000135AC80D000 49] Android_Mali_G76, [00000135BF492200][00000135C0A1B140 49] Android_Mali_G76_Vulkan, [00000135BE299E00][00000135C07B1280 49] Android_Mali_G77, [00000135BF490900][00000135C07B53C0 49] Android_Mali_G77_Vulkan, [00000135BE29BF00][00000135C07BD540 49] Android_Mali_G78, [00000135BF491300][00000135C07C16C0 49] Android_Mali_G78_Vulkan, [00000135BE29B400][00000135C07C5840 49] Android_Mali_G710, [00000135BF493E00][00000135C07C99C0 49] Android_Mali_G710_Vulkan, [00000135BE298700][00000135C07CDB40 49] Android_Vulkan_SM5, [00000135BF493F00][00000135C07D0140 49] Android_PowerVR_G6xxx, [00000135BE299F00][00000135C07D42C0 49] Android_PowerVR_GT7xxx, [00000135BF492B00][00000135C07D8440 49] Android_PowerVR_GE8xxx, [00000135BE29B700][00000135C07DC5C0 49] Android_PowerVR_GM9xxx, [00000135BF492800][00000135C07E0740 49] Android_PowerVR_GM9xxx_Vulkan, [00000135BE299500][00000135C07E48C0 49] Android_TegraK1, [00000135BF491700][00000135C07E8A40 49] Android_Unknown_Vulkan, [00000135BE29AC00][00000135C07ECBC0 49] Lumin, [00000135BF493D00][00000135C07F0D40 49] Lumin_Desktop, [00000135BE298E00][00000135B4176EC0 49] HoloLens, 
+[2022.04.27-15.48.45:279][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.04.27-15.48.45:279][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.04.27-15.48.45:279][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.04.27-15.48.45:279][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.04.27-15.48.45:280][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.04.27-15.48.45:397][  0]LogNetVersion: BirdRacer 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1298144927)
+[2022.04.27-15.48.47:975][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.04.27-15.48.48:298][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.04.27-15.48.48:312][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2022.04.27-15.48.48:312][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2022.04.27-15.48.48:312][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.04.27-15.48.51:305][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 13383842459E700A7D034E8E44C4F549 | Instance: 12BE41644E42BB010E342388621CD509 (KMM-ROG-169600).
+[2022.04.27-15.48.53:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.04.27-15.48.53:160][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.04.27-15.48.53:271][  0]LogPython: Using Python 3.7.7
+[2022.04.27-15.48.57:913][  0]SourceControl: Source control is disabled
+[2022.04.27-15.48.57:913][  0]SourceControl: Source control is disabled
+[2022.04.27-15.48.57:947][  0]SourceControl: Source control is disabled
+[2022.04.27-15.48.57:992][  0]SourceControl: Source control is disabled
+[2022.04.27-15.48.58:402][  0]SourceControl: Source control is disabled
+[2022.04.27-15.48.58:454][  0]LogUProjectInfo: Found projects:
+[2022.04.27-15.49.00:277][  0]LogOpenImageDenoise: OIDN starting up
+[2022.04.27-15.49.00:526][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.04.27-15.49.00:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.27-15.49.00:660][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.04.27-15.49.01:574][  0]LogCollectionManager: Loaded 0 collections in 0.004134 seconds
+[2022.04.27-15.49.01:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Collections/' took 0.00s
+[2022.04.27-15.49.01:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Developers/krist/Collections/' took 0.00s
+[2022.04.27-15.49.01:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Collections/' took 0.00s
+[2022.04.27-15.49.01:719][  0]LogOcInput: OculusInput pre-init called
+[2022.04.27-15.49.02:374][  0]LogEngine: Initializing Engine...
+[2022.04.27-15.49.02:433][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2022.04.27-15.49.02:434][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2022.04.27-15.49.02:434][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.04.27-15.49.02:438][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2022.04.27-15.49.02:837][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.04.27-15.49.02:915][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.04.27-15.49.02:922][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.04.27-15.49.02:960][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.04.27-15.49.02:967][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.04.27-15.49.02:970][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.04.27-15.49.02:971][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.04.27-15.49.02:971][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.27-15.49.02:972][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.27-15.49.02:972][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.27-15.49.02:974][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.27-15.49.02:974][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.27-15.49.02:974][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.27-15.49.02:974][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.27-15.49.03:010][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.27-15.49.03:010][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.04.27-15.49.03:038][  0]LogAudioMixer: Display: Using Audio Device Høyttalere (Logi Z407)
+[2022.04.27-15.49.03:043][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.27-15.49.03:074][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.27-15.49.03:075][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.27-15.49.03:077][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.27-15.49.03:078][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.27-15.49.03:078][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.27-15.49.03:080][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.27-15.49.03:080][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.27-15.49.03:080][  0]LogInit: FAudioDevice initialized.
+[2022.04.27-15.49.03:081][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.04.27-15.49.03:081][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.04.27-15.49.03:154][  0]LogDerivedDataCache: Saved boot cache 0.07s 94MB C:/Users/krist/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.04.27-15.49.03:155][  0]LogInit: Texture streaming: Enabled
+[2022.04.27-15.49.03:248][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2022.04.27-15.49.03:276][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.04.27-15.49.03:280][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.04.27-15.49.03:284][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.04.27-15.49.03:704][  0]LogInit: Transaction tracking system initialized
+[2022.04.27-15.49.03:915][  0]BlueprintLog: New page: Editor Load
+[2022.04.27-15.49.04:486][  0]LocalizationService: Localization service is disabled
+[2022.04.27-15.49.04:749][  0]TimingProfiler: Initialize
+[2022.04.27-15.49.04:752][  0]TimingProfiler: OnSessionChanged
+[2022.04.27-15.49.04:753][  0]LoadingProfiler: Initialize
+[2022.04.27-15.49.04:753][  0]LoadingProfiler: OnSessionChanged
+[2022.04.27-15.49.04:754][  0]NetworkingProfiler: Initialize
+[2022.04.27-15.49.04:754][  0]NetworkingProfiler: OnSessionChanged
+[2022.04.27-15.49.04:755][  0]MemoryProfiler: Initialize
+[2022.04.27-15.49.04:755][  0]MemoryProfiler: OnSessionChanged
+[2022.04.27-15.49.05:708][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.04.27-15.49.05:708][  0]LogCook: Display: Mobile HDR setting 1
+[2022.04.27-15.49.06:108][  0]LogFileCache: Scanning file cache for directory 'C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/' took 0.00s
+[2022.04.27-15.49.07:624][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.04.27-15.49.07:642][  0]SourceControl: Source control is disabled
+[2022.04.27-15.49.07:643][  0]LogUnrealEdMisc: Loading editor; pre map load, took 42.800
+[2022.04.27-15.49.07:649][  0]Cmd: MAP LOAD FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.27-15.49.07:650][  0]LightingResults: New page: Lighting Build
+[2022.04.27-15.49.07:662][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-15.49.07:665][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-15.49.07:667][  0]MapCheck: New page: Map Check
+[2022.04.27-15.49.07:667][  0]LightingResults: New page: Lighting Build
+[2022.04.27-15.49.07:697][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.27-15.49.07:710][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.04.27-15.49.08:335][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestWorld'.
+[2022.04.27-15.49.08:337][  0]LogAIModule: Creating AISystem for world TestWorld
+[2022.04.27-15.49.08:380][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.27-15.49.08:403][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.04.27-15.49.08:410][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.27-15.49.08:410][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,186ms to complete.
+[2022.04.27-15.49.08:410][  0]LogFileHelpers: Loading map 'TestWorld' took 0.763
+[2022.04.27-15.49.08:450][  0]LogUnrealEdMisc: Total Editor Startup Time, took 43.607
+[2022.04.27-15.49.08:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.27-15.49.08:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.27-15.49.08:787][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.27-15.49.08:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.27-15.49.08:884][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0255 seconds. Added 3825 classes and 932 folders.
+[2022.04.27-15.49.08:893][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.04.27-15.49.08:912][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.27-15.49.08:912][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:912][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.27-15.49.08:912][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:912][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2022.04.27-15.49.08:912][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2022.04.27-15.49.08:930][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.27-15.49.08:930][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:930][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.27-15.49.08:930][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:930][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2022.04.27-15.49.08:930][  0]LogPakFile: OnPakFileMounted2Time == 0.000111
+[2022.04.27-15.49.08:947][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.04.27-15.49.08:947][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:947][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.04.27-15.49.08:947][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:948][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2022.04.27-15.49.08:948][  0]LogPakFile: OnPakFileMounted2Time == 0.000153
+[2022.04.27-15.49.08:961][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.27-15.49.08:961][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:961][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.27-15.49.08:961][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:961][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/StarterContent.upack)
+[2022.04.27-15.49.08:961][  0]LogPakFile: OnPakFileMounted2Time == 0.000164
+[2022.04.27-15.49.08:973][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.27-15.49.08:973][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:973][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.27-15.49.08:973][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:973][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2022.04.27-15.49.08:973][  0]LogPakFile: OnPakFileMounted2Time == 0.000115
+[2022.04.27-15.49.08:982][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.27-15.49.08:982][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:983][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.27-15.49.08:983][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:983][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2022.04.27-15.49.08:983][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2022.04.27-15.49.08:995][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.27-15.49.08:995][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.08:995][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.27-15.49.08:995][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.08:996][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2022.04.27-15.49.08:996][  0]LogPakFile: OnPakFileMounted2Time == 0.000207
+[2022.04.27-15.49.09:009][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.27-15.49.09:009][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:009][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.27-15.49.09:009][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:009][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2022.04.27-15.49.09:009][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2022.04.27-15.49.09:021][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.27-15.49.09:021][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:021][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.27-15.49.09:021][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:021][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2022.04.27-15.49.09:021][  0]LogPakFile: OnPakFileMounted2Time == 0.000096
+[2022.04.27-15.49.09:052][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.04.27-15.49.09:052][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:052][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.04.27-15.49.09:052][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:052][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2022.04.27-15.49.09:052][  0]LogPakFile: OnPakFileMounted2Time == 0.000054
+[2022.04.27-15.49.09:079][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.04.27-15.49.09:079][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:079][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.04.27-15.49.09:079][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:079][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2022.04.27-15.49.09:079][  0]LogPakFile: OnPakFileMounted2Time == 0.000111
+[2022.04.27-15.49.09:094][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.27-15.49.09:094][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:094][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.27-15.49.09:095][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:095][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2022.04.27-15.49.09:095][  0]LogPakFile: OnPakFileMounted2Time == 0.000117
+[2022.04.27-15.49.09:103][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.27-15.49.09:103][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:103][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.27-15.49.09:103][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:103][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2022.04.27-15.49.09:103][  0]LogPakFile: OnPakFileMounted2Time == 0.000098
+[2022.04.27-15.49.09:112][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.27-15.49.09:112][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:112][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.27-15.49.09:112][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:112][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2022.04.27-15.49.09:112][  0]LogPakFile: OnPakFileMounted2Time == 0.000110
+[2022.04.27-15.49.09:126][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.04.27-15.49.09:127][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:127][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.04.27-15.49.09:127][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:127][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2022.04.27-15.49.09:127][  0]LogPakFile: OnPakFileMounted2Time == 0.000120
+[2022.04.27-15.49.09:146][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.27-15.49.09:146][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:146][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.27-15.49.09:146][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:146][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2022.04.27-15.49.09:146][  0]LogPakFile: OnPakFileMounted2Time == 0.000103
+[2022.04.27-15.49.09:156][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.04.27-15.49.09:156][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:156][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.04.27-15.49.09:156][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:156][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2022.04.27-15.49.09:156][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2022.04.27-15.49.09:170][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.27-15.49.09:170][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:170][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.27-15.49.09:170][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:171][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2022.04.27-15.49.09:171][  0]LogPakFile: OnPakFileMounted2Time == 0.000182
+[2022.04.27-15.49.09:180][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.27-15.49.09:180][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:180][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.27-15.49.09:180][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:180][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2022.04.27-15.49.09:180][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
+[2022.04.27-15.49.09:203][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.27-15.49.09:203][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:203][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.27-15.49.09:203][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:203][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2022.04.27-15.49.09:203][  0]LogPakFile: OnPakFileMounted2Time == 0.000072
+[2022.04.27-15.49.09:213][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.04.27-15.49.09:213][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:213][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.04.27-15.49.09:213][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:213][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2022.04.27-15.49.09:213][  0]LogPakFile: OnPakFileMounted2Time == 0.000094
+[2022.04.27-15.49.09:224][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.04.27-15.49.09:224][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:224][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.04.27-15.49.09:224][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:224][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2022.04.27-15.49.09:224][  0]LogPakFile: OnPakFileMounted2Time == 0.000123
+[2022.04.27-15.49.09:234][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.04.27-15.49.09:234][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:234][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.04.27-15.49.09:234][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:235][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2022.04.27-15.49.09:235][  0]LogPakFile: OnPakFileMounted2Time == 0.000095
+[2022.04.27-15.49.09:250][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.04.27-15.49.09:250][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:250][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.04.27-15.49.09:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2022.04.27-15.49.09:250][  0]LogPakFile: OnPakFileMounted2Time == 0.000099
+[2022.04.27-15.49.09:262][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.04.27-15.49.09:262][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:262][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.04.27-15.49.09:262][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:262][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2022.04.27-15.49.09:262][  0]LogPakFile: OnPakFileMounted2Time == 0.000122
+[2022.04.27-15.49.09:272][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.04.27-15.49.09:272][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.04.27-15.49.09:272][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.04.27-15.49.09:272][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2022.04.27-15.49.09:272][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files (x86)/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2022.04.27-15.49.09:272][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2022.04.27-15.49.09:592][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.04.27-15.49.09:941][  0]LogSlate: Took 0.007121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.04.27-15.49.09:952][  0]LogSlate: Took 0.008579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.04.27-15.49.09:969][  0]LogSlate: Took 0.010048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.04.27-15.49.10:231][  0]LogRenderer: Reallocating scene render targets to support 1468x488 Format 10 NumSamples 1 (Frame:1).
+[2022.04.27-15.49.10:364][  0]LogSlate: Took 0.008098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.27-15.49.10:538][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2022.04.27-15.49.10:538][  0]LogLoad: (Engine Initialization) Total time: 45.69 seconds
+[2022.04.27-15.49.10:538][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.04.27-15.49.10:629][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.04.27-15.49.10:667][  1]LogAssetRegistry: Asset discovery search completed in 27.2090 seconds
+[2022.04.27-15.49.10:718][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2022.04.27-15.49.26:504][474]LogSlate: Took 0.009563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.27-16.07.35:622][314]LogHotReload: New module detected: UE4Editor-BirdRacer-0003.dll
+[2022.04.27-16.07.37:385][320]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-16.07.37:405][320]LogSlate: Took 0.001197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.27-16.07.37:499][320]LogClass: Could not find existing class CheckPointOne in package /Script/BirdRacer for HotReload, assuming new class
+[2022.04.27-16.07.37:509][320]LogHotReload: Re-instancing CheckPointOne after hot-reload.
+[2022.04.27-16.07.37:529][320]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0007 seconds. Added 3 classes and 4 folders.
+[2022.04.27-16.07.37:534][320]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-16.07.37:622][320]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0135 seconds. Added 3825 classes and 932 folders.
+[2022.04.27-16.07.37:671][320]Display: HotReload took  0.3s.
+[2022.04.27-16.08.16:980][522]LogSlate: Took 0.024998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.04.27-16.08.20:141][700]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2022.04.27-16.08.20:321][700]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2022.04.27-16.08.21:430][758]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.04.27-17.15.53:687][632]LogHotReload: New module detected: UE4Editor-BirdRacer-0004.dll
+[2022.04.27-17.15.55:067][637]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-17.15.55:155][637]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0004 seconds. Added 3 classes and 4 folders.
+[2022.04.27-17.15.55:160][637]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-17.15.55:245][637]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0176 seconds. Added 3825 classes and 932 folders.
+[2022.04.27-17.15.55:250][637]Display: HotReload took  0.2s.
+[2022.04.27-17.16.44:255][103]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.04.27-17.16.44:382][103]LogSlate: Took 0.005571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.27-17.16.58:915][947]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_CheckPointOne.BP_CheckPointOne
+[2022.04.27-17.16.59:932][947]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2022.04.27-17.17.01:286][947]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.04.27-17.17.01:448][947]LogRenderer: Reallocating scene render targets to support 1468x704 Format 10 NumSamples 1 (Frame:1).
+[2022.04.27-17.18.33:750][901]BlueprintLog: New page: Compile BP_CheckPointOne
+[2022.04.27-17.18.33:828][901]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.04.27-17.18.35:586][986]LogSlate: Window 'BP_CheckPointOne' being destroyed
+[2022.04.27-17.18.35:611][986]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-17.18.35:611][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-17.18.37:658][101]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_CheckPointOne.BP_CheckPointOne
+[2022.04.27-17.18.39:324][165]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointOneF127E8354DD3933F693E0B805B61DACB.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_CheckPointOne.uasset'
+[2022.04.27-17.18.39:363][165]AssetCheck: New page: Asset Save: BP_CheckPointOne
+[2022.04.27-17.18.39:364][165]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_CheckPointOne.BP_CheckPointOne
+[2022.04.27-17.18.44:343][442]LogSlate: Window 'BP_CheckPointOne' being destroyed
+[2022.04.27-17.18.44:376][442]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-17.18.44:376][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-17.19.08:275][811]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_CheckPointTwo.BP_CheckPointTwo
+[2022.04.27-17.19.08:765][811]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.04.27-17.19.32:063][ 94]BlueprintLog: New page: Compile BP_CheckPointTwo
+[2022.04.27-17.19.32:125][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.04.27-17.19.42:926][663]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointTwoD224299D4EAD03202E7CBFA6BB652263.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_CheckPointTwo.uasset'
+[2022.04.27-17.19.42:957][663]AssetCheck: New page: Asset Save: BP_CheckPointTwo
+[2022.04.27-17.19.42:957][663]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_CheckPointTwo.BP_CheckPointTwo
+[2022.04.27-17.19.43:414][687]BlueprintLog: New page: Compile BP_CheckPointTwo
+[2022.04.27-17.19.43:472][687]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2022.04.27-17.19.44:374][734]LogSlate: Window 'BP_CheckPointTwo' being destroyed
+[2022.04.27-17.19.44:391][734]LogSlate: Window 'BP_CheckPointTwo' being destroyed
+[2022.04.27-17.19.44:397][734]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-17.19.44:397][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-17.19.53:935][247]LogContentBrowser: Deferred new asset file creation: BP_CheckPointTwo1
+[2022.04.27-17.19.53:950][247]LogContentBrowser: Creating deferred item: BP_CheckPointTwo1
+[2022.04.27-17.19.58:578][520]LogContentBrowser: Attempting asset rename: BP_CheckPointTwo1 -> BP_CheckPointThree
+[2022.04.27-17.19.58:606][520]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.04.27-17.19.58:615][520]LogContentBrowser: End creating deferred item BP_CheckPointTwo1
+[2022.04.27-17.19.59:813][587]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_CheckPointThree.BP_CheckPointThree
+[2022.04.27-17.20.01:767][665]LogSlate: Window 'BP_CheckPointThree' being destroyed
+[2022.04.27-17.20.01:803][665]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-17.20.01:803][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-17.20.01:867][665]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_CheckPointThree.BP_CheckPointThree
+[2022.04.27-17.20.06:968][924]BlueprintLog: New page: Compile BP_CheckPointThree
+[2022.04.27-17.20.07:032][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.04.27-17.20.07:371][938]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointThreeF7D11BB443E029B13D7275BD9C8A2AFB.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_CheckPointThree.uasset'
+[2022.04.27-17.20.07:402][938]AssetCheck: New page: Asset Save: BP_CheckPointThree
+[2022.04.27-17.20.07:402][938]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_CheckPointThree.BP_CheckPointThree
+[2022.04.27-17.20.07:611][947]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointThree5555AF9B4F6638020C29C6A39BFB03C3.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_CheckPointThree.uasset'
+[2022.04.27-17.20.07:628][947]AssetCheck: New page: Asset Save: BP_CheckPointThree
+[2022.04.27-17.20.07:628][947]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_CheckPointThree.BP_CheckPointThree
+[2022.04.27-17.20.08:996][ 24]LogSlate: Window 'BP_CheckPointThree' being destroyed
+[2022.04.27-17.20.09:009][ 24]LogSlate: Window 'BP_CheckPointThree' being destroyed
+[2022.04.27-17.20.09:017][ 24]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-17.20.09:017][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-17.20.36:439][631]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.04.27-17.20.37:253][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.38:010][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.38:433][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.38:725][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.39:113][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.39:485][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.50:201][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.50:520][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.50:867][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2022.04.27-17.20.51:192][491]LogEditorViewport: Clicking on Actor (LMB): BP_CheckPointOne_C (BP_CheckPointOne)
+[2022.04.27-17.20.52:642][575]Cmd: DELETE
+[2022.04.27-17.20.52:642][575]Cmd: ACTOR DELETE
+[2022.04.27-17.20.52:660][575]LogEditorActor: Deleted Actor: BP_CheckPointOne_C
+[2022.04.27-17.20.52:683][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.27-17.20.52:687][575]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2022.04.27-17.22.29:017][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.04.27-17.22.29:047][827]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/TestWorld_Auto13223C4F14A5448DAE7B69C93DD0AEFA8.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Autosaves/Game/Maps/TestWorld_Auto1.umap'
+[2022.04.27-17.22.29:049][827]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/TestWorld' took 0.051
+[2022.04.27-17.22.29:049][827]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.051
+[2022.04.27-17.31.52:654][597]Running C:/Program Files (x86)/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject" -game -rocket -progress
+[2022.04.27-17.31.53:285][597]Discovering modules, targets and source code for project...
+[2022.04.27-17.31.57:506][597]Binding IntelliSense data...
+[2022.04.27-17.32.01:467][597]Binding IntelliSense data... 100%
+[2022.04.27-17.32.01:467][597]Writing project files...
+[2022.04.27-17.32.07:305][597]Writing project files... 100%
+[2022.04.27-17.32.07:589][597]Candidate modules for hot reload:
+[2022.04.27-17.32.07:589][597]  BirdRacer
+[2022.04.27-17.32.07:589][597]Launching UnrealBuildTool... [C:/Program Files (x86)/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1539 BirdRacerEditor Win64 Development -Project="C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject" "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.04.27-17.32.21:299][597]CompilerResultsLog: New page: Compilation - 27. apr. 2022, 21:32:21
+[2022.04.27-17.32.21:300][597]CompilerResultsLog: Creating makefile for BirdRacerEditor (no existing makefile)
+[2022.04.27-17.32.21:300][597]CompilerResultsLog: Parsing headers for BirdRacerEditor
+[2022.04.27-17.32.21:300][597]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\BirdRacer.uproject" "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\BirdRacerEditor\Development\BirdRacerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\krist\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Reflection code generated for BirdRacerEditor in 6,1490882 seconds
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Building BirdRacerEditor...
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Using Visual Studio 2022 14.30.30709 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [1/6] SpeedBoost.cpp
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [2/6] BirdRacer.init.gen.cpp
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [3/6] SpeedBoost.gen.cpp
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [4/6] UE4Editor-BirdRacer-1539.lib
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:      Creating library C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1539.lib and object C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1539.exp
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [5/6] UE4Editor-BirdRacer-1539.dll
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:      Creating library C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1539.suppressed.lib and object C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1539.suppressed.exp
+[2022.04.27-17.32.21:301][597]CompilerResultsLog:   [6/6] BirdRacerEditor.target
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Total time in Parallel executor: 3,54 seconds
+[2022.04.27-17.32.21:301][597]CompilerResultsLog: Total execution time: 13,46 seconds
+[2022.04.27-17.32.21:301][597]LogMainFrame: MainFrame: Module compiling took 13.729 seconds
+[2022.04.27-17.32.21:411][597]LogClass: Could not find existing class SpeedBoost in package /Script/BirdRacer for HotReload, assuming new class
+[2022.04.27-17.32.21:423][597]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0005 seconds. Added 4 classes and 4 folders.
+[2022.04.27-17.32.21:432][597]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-17.32.21:558][597]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0195 seconds. Added 3826 classes and 932 folders.
+[2022.04.27-17.32.21:558][597]Display: HotReload took 14.0s.
+[2022.04.27-17.32.21:563][597]Warning: HotReload operation took 14.1s.
+[2022.04.27-17.32.23:648][597]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.27-17.32.24:182][597]LogHotReload: New module detected: UE4Editor-BirdRacer-1539.dll
+[2022.04.27-17.32.24:270][598]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-17.32.24:325][598]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0004 seconds. Added 4 classes and 4 folders.
+[2022.04.27-17.32.24:335][598]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.27-17.32.24:356][598]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0145 seconds. Added 3826 classes and 932 folders.
+[2022.04.27-17.32.24:367][598]Display: HotReload took  0.1s.
+[2022.04.27-19.26.45:943][406]LogHotReload: New module detected: UE4Editor-BirdRacer-0006.dll
+[2022.04.27-19.26.47:672][412]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-19.26.48:031][412]LogClass: Could not find existing class SpeedBoost in package /Script/BirdRacer for HotReload, assuming new class
+[2022.04.27-19.26.48:061][412]LogHotReload: Re-instancing SpeedBoost after hot-reload.
+[2022.04.27-19.26.48:124][412]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0030 seconds. Added 4 classes and 4 folders.
+[2022.04.27-19.26.48:140][412]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-19.26.48:390][412]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0196 seconds. Added 3826 classes and 932 folders.
+[2022.04.27-19.26.48:395][412]Display: HotReload took  0.7s.
+[2022.04.27-19.27.02:515][126]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_SpeedBoost.BP_SpeedBoost
+[2022.04.27-19.27.03:178][126]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.04.27-19.27.14:484][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/pickups/BP_SpeedBoost" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_SpeedBoost.uasset" SILENT=true
+[2022.04.27-19.27.14:493][744]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_SpeedBoost0C2C551C440B909BE5E2CC9E232E3C83.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_SpeedBoost.uasset'
+[2022.04.27-19.27.14:520][744]AssetCheck: New page: Asset Save: BP_SpeedBoost
+[2022.04.27-19.27.14:520][744]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_SpeedBoost.BP_SpeedBoost
+[2022.04.27-19.27.15:134][778]BlueprintLog: New page: Compile BP_SpeedBoost
+[2022.04.27-19.27.15:567][778]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2022.04.27-19.27.16:557][829]LogSlate: Window 'BP_SpeedBoost' being destroyed
+[2022.04.27-19.27.16:601][829]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-19.27.16:601][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-19.27.30:345][270]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.27-19.27.30:359][270]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.27-19.27.34:458][515]LogContentBrowser: Attempting asset rename: NewFolder -> Checkpoints
+[2022.04.27-19.27.34:459][515]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.SKEL_BP_CheckPointTwo_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.SKEL_BP_CheckPointTwo_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.SKEL_BP_CheckPointTwo_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.SKEL_BP_CheckPointTwo_C:ReceiveTick' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:114][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.SKEL_BP_CheckPointTwo_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointTwo.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.SKEL_BP_CheckPointOne_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.SKEL_BP_CheckPointOne_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.SKEL_BP_CheckPointOne_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:117][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.SKEL_BP_CheckPointOne_C:ReceiveTick' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:118][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.SKEL_BP_CheckPointOne_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointOne.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.SKEL_BP_CheckPointThree_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.BP_CheckPointThree_C' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.SKEL_BP_CheckPointThree_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.SKEL_BP_CheckPointThree_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.SKEL_BP_CheckPointThree_C:ReceiveTick' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:119][841]LogMetaData: Removing '/Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.SKEL_BP_CheckPointThree_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/pickups/BP_CheckPointThree.PackageMetaData'
+[2022.04.27-19.27.40:150][841]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointTwoB1B77ABF4D1830CB5B1DB7B78C11377B.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.uasset'
+[2022.04.27-19.27.40:158][841]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointOne078B114745C6F346C124C0A1D4548179.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/Checkpoints/BP_CheckPointOne.uasset'
+[2022.04.27-19.27.40:164][841]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_CheckPointThreeE876BCDE4D84E1F4DD72BA8222418D8F.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/Checkpoints/BP_CheckPointThree.uasset'
+[2022.04.27-19.27.40:420][841]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2022.04.27-19.27.40:443][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.04.27-19.27.40:462][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.04.27-19.27.40:493][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.04.27-19.27.40:513][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.04.27-19.27.40:597][841]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.27-19.27.40:597][841]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/Checkpoints/BP_CheckPointOne.BP_CheckPointOne
+[2022.04.27-19.27.40:597][841]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/Checkpoints/BP_CheckPointTwo.BP_CheckPointTwo
+[2022.04.27-19.27.40:597][841]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/Checkpoints/BP_CheckPointThree.BP_CheckPointThree
+[2022.04.27-19.28.11:369][444]Running C:/Program Files (x86)/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject" -game -rocket -progress
+[2022.04.27-19.28.11:873][444]Discovering modules, targets and source code for project...
+[2022.04.27-19.28.16:382][444]Binding IntelliSense data...
+[2022.04.27-19.28.25:517][444]Binding IntelliSense data... 100%
+[2022.04.27-19.28.25:517][444]Writing project files...
+[2022.04.27-19.28.31:029][444]Writing project files... 100%
+[2022.04.27-19.28.31:174][444]Candidate modules for hot reload:
+[2022.04.27-19.28.31:174][444]  BirdRacer
+[2022.04.27-19.28.31:174][444]Launching UnrealBuildTool... [C:/Program Files (x86)/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,3749 BirdRacerEditor Win64 Development -Project="C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject" "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: New page: Compilation - 27. apr. 2022, 23:28:41
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Creating makefile for BirdRacerEditor (no existing makefile)
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Parsing headers for BirdRacerEditor
+[2022.04.27-19.28.41:822][444]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\BirdRacer.uproject" "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\BirdRacerEditor\Development\BirdRacerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\krist\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Reflection code generated for BirdRacerEditor in 4,9694518 seconds
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Building BirdRacerEditor...
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Using Visual Studio 2022 14.30.30709 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.27-19.28.41:822][444]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [1/6] AmmoPickup.cpp
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [2/6] BirdRacer.init.gen.cpp
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [3/6] AmmoPickup.gen.cpp
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [4/6] UE4Editor-BirdRacer-3749.lib
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:      Creating library C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3749.lib and object C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3749.exp
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [5/6] UE4Editor-BirdRacer-3749.dll
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:      Creating library C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3749.suppressed.lib and object C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3749.suppressed.exp
+[2022.04.27-19.28.41:823][444]CompilerResultsLog:   [6/6] BirdRacerEditor.target
+[2022.04.27-19.28.41:823][444]CompilerResultsLog: Total time in Parallel executor: 2,30 seconds
+[2022.04.27-19.28.41:823][444]CompilerResultsLog: Total execution time: 10,52 seconds
+[2022.04.27-19.28.41:823][444]LogMainFrame: MainFrame: Module compiling took 10.655 seconds
+[2022.04.27-19.28.41:862][444]LogClass: Could not find existing class AmmoPickup in package /Script/BirdRacer for HotReload, assuming new class
+[2022.04.27-19.28.41:882][444]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0003 seconds. Added 5 classes and 4 folders.
+[2022.04.27-19.28.41:889][444]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-19.28.42:005][444]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0159 seconds. Added 3827 classes and 932 folders.
+[2022.04.27-19.28.42:005][444]Display: HotReload took 10.9s.
+[2022.04.27-19.28.42:012][444]Warning: HotReload operation took 10.9s.
+[2022.04.27-19.28.42:786][444]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.27-19.28.43:268][445]LogHotReload: New module detected: UE4Editor-BirdRacer-3749.dll
+[2022.04.27-19.28.43:320][446]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-19.28.43:348][446]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0004 seconds. Added 5 classes and 4 folders.
+[2022.04.27-19.28.43:358][446]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.27-19.28.43:382][446]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0159 seconds. Added 3827 classes and 932 folders.
+[2022.04.27-19.28.43:387][446]Display: HotReload took  0.1s.
+[2022.04.27-19.30.56:233][935]LogHotReload: New module detected: UE4Editor-BirdRacer-0008.dll
+[2022.04.27-19.30.57:286][939]LogHotReload: Starting Hot-Reload from IDE
+[2022.04.27-19.30.57:344][939]LogClass: Could not find existing class AmmoPickup in package /Script/BirdRacer for HotReload, assuming new class
+[2022.04.27-19.30.57:367][939]LogHotReload: Re-instancing AmmoPickup after hot-reload.
+[2022.04.27-19.30.57:405][939]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0005 seconds. Added 5 classes and 4 folders.
+[2022.04.27-19.30.57:412][939]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.04.27-19.30.57:552][939]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0134 seconds. Added 3827 classes and 932 folders.
+[2022.04.27-19.30.57:558][939]Display: HotReload took  0.3s.
+[2022.04.27-19.31.11:160][642]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/pickups/BP_AmmoPickup.BP_AmmoPickup
+[2022.04.27-19.31.11:790][642]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.04.27-19.31.13:647][742]BlueprintLog: New page: Compile BP_AmmoPickup
+[2022.04.27-19.31.13:863][742]LogUObjectHash: Compacting FUObjectHashTables data took   8.62ms
+[2022.04.27-19.31.14:500][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/pickups/BP_AmmoPickup" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_AmmoPickup.uasset" SILENT=true
+[2022.04.27-19.31.14:506][773]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/BP_AmmoPickup8EDDE1C64AD6BC0930BFAB86BA435E14.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Blueprints/pickups/BP_AmmoPickup.uasset'
+[2022.04.27-19.31.14:534][773]AssetCheck: New page: Asset Save: BP_AmmoPickup
+[2022.04.27-19.31.14:534][773]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/pickups/BP_AmmoPickup.BP_AmmoPickup
+[2022.04.27-19.31.16:670][894]LogSlate: Window 'BP_AmmoPickup' being destroyed
+[2022.04.27-19.31.16:686][894]LogSlate: Window 'BP_AmmoPickup' being destroyed
+[2022.04.27-19.31.16:690][894]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.27-19.31.16:690][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.27-19.31.26:706][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.27-19.31.26:798][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.04.27-19.31.26:829][474]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/TestWorldB3891AE54C8199358F1FE180B9EC9CF9.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld.umap'
+[2022.04.27-19.31.26:840][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld_BuiltData" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset" SILENT=true
+[2022.04.27-19.31.26:874][474]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/TestWorld_BuiltData9FCE724A440B35CFFD729E9E071E2D82.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset'
+[2022.04.27-19.31.26:898][474]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.27-19.31.26:898][474]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestWorld_BuiltData.TestWorld_BuiltData
+[2022.04.27-19.31.26:898][474]LogContentValidation: Display: Validating World /Game/Maps/TestWorld.TestWorld
+[2022.04.27-19.52.09:582][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.27-19.52.09:609][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.04.27-19.52.09:639][680]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/TestWorldCF2CDE1F47E267AE6B5415A485BBDDA4.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld.umap'
+[2022.04.27-19.52.09:649][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld_BuiltData" FILE="../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset" SILENT=true
+[2022.04.27-19.52.09:667][680]LogSavePackage: Moving '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/TestWorld_BuiltDataE149A95C4429A37227F208977ED16F18.tmp' to '../../../../../Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset'
+[2022.04.27-19.52.09:686][680]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.27-19.52.09:686][680]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestWorld_BuiltData.TestWorld_BuiltData
+[2022.04.27-19.52.09:686][680]LogContentValidation: Display: Validating World /Game/Maps/TestWorld.TestWorld
+[2022.04.27-19.53.08:371][998]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.27-19.53.08:386][998]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.27-19.53.08:386][998]LogAudioMixer: Display: 1: FrontRight
+[2022.04.28-09.08.01:542][ 93]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization

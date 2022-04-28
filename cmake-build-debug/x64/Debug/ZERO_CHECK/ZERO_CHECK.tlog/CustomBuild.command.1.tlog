@@ -1,0 +1,10 @@
+^C:\USERS\KRIST\ONEDRIVE\SKRIVEBORD\BIRD RACER\BIRDRACER\CMAKE-BUILD-DEBUG\CMAKEFILES\145F2561AAC8E38CF26F15E8A771815C\GENERATE.STAMP.RULE
+setlocal
+C:\Users\krist\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe "-SC:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer" "-BC:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/cmake-build-debug/UE4.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
