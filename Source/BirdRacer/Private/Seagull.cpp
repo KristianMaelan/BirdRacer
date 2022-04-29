@@ -3,6 +3,7 @@
 
 #include "Seagull.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
@@ -65,9 +66,9 @@ void ASeagull::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void ASeagull::MoveForward(float value)
 {
-	FVector Direction = GetActorForwardVector();
-	AddMovementInput(Direction, value);
-}
+    FVector Direction = GetActorForwardVector();
+    AddMovementInput(Direction, value);
+   }
 
 
 void ASeagull::MoveSideways(float value)

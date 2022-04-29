@@ -35,18 +35,24 @@ public:
 
 
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		class USpringArmComponent* SpringArm;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		class UCameraComponent* Camera;
+
+
+
 	bool CheckPointsComplete = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		int32 LapsCompleted = 0;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		float SpeedBoostTime;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
-		class USpringArmComponent* SpringArm;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
-		class UCameraComponent* Camera;
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		FVector SpeedBoostValue;
 
 
 
