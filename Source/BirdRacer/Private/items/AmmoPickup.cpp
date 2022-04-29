@@ -11,6 +11,8 @@ void AAmmoPickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
 
     if (OtherActor)
     {
+
+        UE_LOG(LogTemp, Warning, TEXT("Ammo picked up!"));
         //ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
        /* if (Player1)
