@@ -1,13 +1,13 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Seagull.h"
 #include "items/CheckPointOne.h"
+#include "Seagull.h"
 
 void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
     Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
-
+    GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You crossed a checkpoint!"));
     //UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
     //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
 

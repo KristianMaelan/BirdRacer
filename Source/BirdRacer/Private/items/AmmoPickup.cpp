@@ -7,7 +7,7 @@ void AAmmoPickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
 {
     Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
-    //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
+    GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You picked up ammo!"));
 
     //if (OtherActor)
     //{
