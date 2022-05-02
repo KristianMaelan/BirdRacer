@@ -61,7 +61,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		float SpeedBoostTime;
 
-<<<<<<< HEAD
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class USpringArmComponent* SpringArm;
 
@@ -72,10 +72,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 		class AMainPlayerController* MainPlayerController;
 
-=======
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		FVector SpeedBoostValue;
->>>>>>> 736699c20b85971f2db532728a5183939ae7e23f
+
 
 
 

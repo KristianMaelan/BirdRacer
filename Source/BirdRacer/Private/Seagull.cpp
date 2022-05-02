@@ -78,28 +78,23 @@ void ASeagull::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 bool ASeagull::AbleToMove(float value)
 {
-    if (MainPlayerController)
+    /*if (MainPlayerController)
     {
         return (value != 0.0f) && (!MainPlayerController->bPauseMenuVisible);
-    }
+    }*/
 
     return false;
 }
 
 void ASeagull::MoveForward(float value)
 {
-<<<<<<< HEAD
+
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();
         AddMovementInput(Direction, value);
     }
 }
-=======
-    FVector Direction = GetActorForwardVector();
-    AddMovementInput(Direction, value);
-   }
->>>>>>> 736699c20b85971f2db532728a5183939ae7e23f
 
 
 void ASeagull::MoveSideways(float value)
@@ -121,7 +116,7 @@ void ASeagull::ESCPushed()
 
     if (MainPlayerController)
     {
-        MainPlayerController->SwitchPauseMenu();
+      //  MainPlayerController->SwitchPauseMenu();
     }
 }
 

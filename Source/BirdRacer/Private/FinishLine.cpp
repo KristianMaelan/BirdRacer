@@ -2,10 +2,6 @@
 
 #include "FinishLine.h"
 #include "Seagull.h"
-<<<<<<< HEAD
-=======
-
->>>>>>> 736699c20b85971f2db532728a5183939ae7e23f
 
 AFinishLine::AFinishLine()
 {
