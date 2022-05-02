@@ -947,3 +947,1185 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.01-19.19.38:589][468]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
 [2022.05.01-19.19.38:657][468]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0121 seconds. Added 3830 classes and 933 folders.
 [2022.05.01-19.19.38:658][468]Display: HotReload took  3.1s.
+[2022.05.01-19.30.13:798][110]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.01-19.34.38:050][821]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.01-19.34.38:133][821]LogSlate: Took 0.001397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.01-19.34.50:749][291]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" -game -rocket -progress
+[2022.05.01-19.34.51:156][291]Discovering modules, targets and source code for project...
+[2022.05.01-19.34.53:882][291]Binding IntelliSense data...
+[2022.05.01-19.34.57:116][291]Binding IntelliSense data... 100%
+[2022.05.01-19.34.57:116][291]Writing project files...
+[2022.05.01-19.35.03:476][291]Writing project files... 100%
+[2022.05.01-19.35.03:650][291]Candidate modules for hot reload:
+[2022.05.01-19.35.03:650][291]  BirdRacer
+[2022.05.01-19.35.03:651][291]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,5229 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-19.35.20:032][291]CompilerResultsLog: New page: Compilation - 1 May 2022, 23:35:20
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Creating makefile for BirdRacerEditor (no existing makefile)
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Parsing headers for BirdRacerEditor
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\BirdRacer.uproject" "C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\BirdRacerEditor\Development\BirdRacerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Joakim\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Reflection code generated for BirdRacerEditor in 5.37135 seconds
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Error: C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\items\CheckPointOne.cpp(1) : error: Expected CheckPointOne.h to be first header included.
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Error: C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\FinishLine.cpp(1) : error: Expected FinishLine.h to be first header included.
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: Building 10 actions with 12 processes...
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   [1/10] FinishLine.cpp
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: 
+[2022.05.01-19.35.20:033][291]CompilerResultsLog: 
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   [2/10] Seagull.cpp
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2672: 'UInputComponent::BindAction': no matching overloaded function found
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,DelegateType::TUObjectMethodDelegate<UserClass>::FMethodPtr,VarTypes...)': expects 5 arguments - 3 provided
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(891): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TDelegate<void (FKey),FDefaultDelegateUserPolicy>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2022.05.01-19.35.20:033][291]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(879): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TDelegate<void (void),FDefaultDelegateUserPolicy>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(867): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   [3/10] BirdRacer.init.gen.cpp
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   [4/10] MainPlayerController.cpp
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   [5/10] CheckPointOne.cpp
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   [6/10] MainPlayerController.gen.cpp
+[2022.05.01-19.35.20:034][291]CompilerResultsLog:   [7/10] Seagull.gen.cpp
+[2022.05.01-19.35.20:034][291]LogMainFrame: MainFrame: Module compiling took 16.387 seconds
+[2022.05.01-19.35.20:044][291]Warning: HotReload failed, recompile failed
+[2022.05.01-19.35.20:044][291]Warning: RebindPackages failed because compilation failed.
+[2022.05.01-19.35.28:377][291]LogSlate: Window 'Message' being destroyed
+[2022.05.01-19.35.28:384][291]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'MainPlayerController', however you must recompile the 'BirdRacer' module before it will appear in the Content Browser. Failed to automatically hot reload the 'BirdRacer' module.
+
+Would you like to open the Output Log to see more details?
+[2022.05.01-19.35.28:393][291]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.05.01-19.35.52:856][326]Candidate modules for hot reload:
+[2022.05.01-19.35.52:856][326]  BirdRacer
+[2022.05.01-19.35.52:856][326]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,5994 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-19.35.52:859][326]Warning: Starting HotReload took  0.0s.
+[2022.05.01-19.35.55:262][570]CompilerResultsLog: New page: Compilation - 1 May 2022, 23:35:55
+[2022.05.01-19.35.55:262][570]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-19.35.55:262][570]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-19.35.55:262][570]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-19.35.55:262][570]CompilerResultsLog: Building 5 actions with 12 processes...
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:   [1/5] Seagull.cpp
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2672: 'UInputComponent::BindAction': no matching overloaded function found
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,DelegateType::TUObjectMethodDelegate<UserClass>::FMethodPtr,VarTypes...)': expects 5 arguments - 3 provided
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(891): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TDelegate<void (FKey),FDefaultDelegateUserPolicy>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(879): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\Seagull.cpp(65) : error C2780: 'FInputActionBinding &UInputComponent::BindAction(const FName,const EInputEvent,UserClass *,TDelegate<void (void),FDefaultDelegateUserPolicy>::TUObjectMethodDelegate<UserClass>::FMethodPtr)': expects 4 arguments - 3 provided
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h(867): note: see declaration of 'UInputComponent::BindAction'
+[2022.05.01-19.35.55:262][570]CompilerResultsLog:   [2/5] FinishLine.cpp
+[2022.05.01-19.35.55:262][570]LogMainFrame: MainFrame: Module compiling took 2.411 seconds
+[2022.05.01-19.35.55:262][570]Warning: HotReload failed, recompile failed
+[2022.05.01-19.38.56:654][733]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-19.38.56:662][733]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-19.38.58:178][908]Candidate modules for hot reload:
+[2022.05.01-19.38.58:178][908]  BirdRacer
+[2022.05.01-19.38.58:178][908]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,8274 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-19.38.58:182][908]Warning: Starting HotReload took  0.0s.
+[2022.05.01-19.39.00:277][114]CompilerResultsLog: New page: Compilation - 1 May 2022, 23:39:00
+[2022.05.01-19.39.00:277][114]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-19.39.00:278][114]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-19.39.00:278][114]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-19.39.00:278][114]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-19.39.00:278][114]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-8274.lib
+[2022.05.01-19.39.00:278][114]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8274.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8274.exp
+[2022.05.01-19.39.00:278][114]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-8274.dll
+[2022.05.01-19.39.00:278][114]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8274.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8274.suppressed.exp
+[2022.05.01-19.39.00:278][114]CompilerResultsLog:   [3/3] BirdRacerEditor.target
+[2022.05.01-19.39.00:278][114]CompilerResultsLog: Total time in Parallel executor: 1.11 seconds
+[2022.05.01-19.39.00:278][114]CompilerResultsLog: Total execution time: 2.00 seconds
+[2022.05.01-19.39.00:278][114]LogMainFrame: MainFrame: Module compiling took 2.104 seconds
+[2022.05.01-19.39.00:442][114]LogClass: Could not find existing class MainPlayerController in package /Script/BirdRacer for HotReload, assuming new class
+[2022.05.01-19.39.00:478][114]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BirdRacer' in 0.0003 seconds. Added 9 classes and 5 folders.
+[2022.05.01-19.39.00:503][114]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2022.05.01-19.39.00:593][114]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0144 seconds. Added 3831 classes and 933 folders.
+[2022.05.01-19.39.00:593][114]Display: HotReload took  2.4s.
+[2022.05.01-19.39.07:299][909]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.01-19.39.07:331][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-19.39.07:332][909]PIE: New page: PIE session: TestWorld (1 May 2022, 23:39:07)
+[2022.05.01-19.39.07:363][909]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.05.01-19.39.07:372][909]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.01-19.39.07:374][909]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestWorld
+[2022.05.01-19.39.07:448][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074179s)
+[2022.05.01-19.39.07:482][909]LogAIModule: Creating AISystem for world TestWorld
+[2022.05.01-19.39.07:489][909]LogPlayLevel: PIE: World Init took: (0.040412s)
+[2022.05.01-19.39.07:489][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestWorld.TestWorld to /Game/Maps/UEDPIE_0_TestWorld.TestWorld (0.115835s)
+[2022.05.01-19.39.07:551][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.05.01-19.39.07:584][909]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.01-19.39.07:585][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.01-19.39.07:586][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.01-19.39.07:588][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.01-19.39.07:588][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.01-19.39.07:588][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.01-19.39.07:588][909]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.01-19.39.07:598][909]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.01-19.39.07:598][909]LogAudioMixer: Display: 1: FrontRight
+[2022.05.01-19.39.07:623][909]LogAudioMixer: Display: Using Audio Device Speakers (Razer Nari Essential)
+[2022.05.01-19.39.07:626][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.01-19.39.07:626][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.01-19.39.07:627][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.01-19.39.07:630][909]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.01-19.39.07:630][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.01-19.39.07:630][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.01-19.39.07:632][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.01-19.39.07:632][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.01-19.39.07:632][909]LogInit: FAudioDevice initialized.
+[2022.05.01-19.39.07:632][909]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestWorld'.
+[2022.05.01-19.39.07:695][909]LogLoad: Game class is 'GameModeBase'
+[2022.05.01-19.39.07:726][909]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2022.05.01-21.39.07
+[2022.05.01-19.39.07:729][909]LogWorld: Bringing up level for play took: 0.028188
+[2022.05.01-19.39.07:735][909]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.05.01-19.39.07:823][909]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.05.01-19.39.07:847][909]PIE: Server logged in
+[2022.05.01-19.39.07:849][909]PIE: Play in editor total start time 0.529 seconds.
+[2022.05.01-19.39.09:910][138]LogTemp: Warning: FINISH LINE PASSED
+[2022.05.01-19.39.26:560][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.01-19.39.26:560][131]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestWorld
+[2022.05.01-19.39.26:563][131]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2022.05.01-19.39.26:566][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.01-19.39.26:577][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.01-19.39.26:581][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.01-19.39.26:586][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.01-19.39.26:588][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.01-19.39.26:590][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.01-19.39.26:607][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.05.01-19.39.26:626][132]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.05.01-19.42.23:002][104]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.01-19.42.23:010][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.01-19.42.23:011][104]PIE: New page: PIE session: TestWorld (1 May 2022, 23:42:23)
+[2022.05.01-19.42.23:011][104]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestWorld
+[2022.05.01-19.42.23:023][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012228s)
+[2022.05.01-19.42.23:025][104]LogAIModule: Creating AISystem for world TestWorld
+[2022.05.01-19.42.23:026][104]LogPlayLevel: PIE: World Init took: (0.002975s)
+[2022.05.01-19.42.23:026][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestWorld.TestWorld to /Game/Maps/UEDPIE_0_TestWorld.TestWorld (0.015345s)
+[2022.05.01-19.42.23:031][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.05.01-19.42.23:032][104]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.01-19.42.23:032][104]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.01-19.42.23:032][104]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.01-19.42.23:033][104]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.01-19.42.23:033][104]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.01-19.42.23:033][104]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.01-19.42.23:033][104]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.01-19.42.23:040][104]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.01-19.42.23:040][104]LogAudioMixer: Display: 1: FrontRight
+[2022.05.01-19.42.23:066][104]LogAudioMixer: Display: Using Audio Device Speakers (Razer Nari Essential)
+[2022.05.01-19.42.23:068][104]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.01-19.42.23:068][104]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.01-19.42.23:068][104]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.01-19.42.23:070][104]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.01-19.42.23:070][104]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.01-19.42.23:070][104]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.01-19.42.23:071][104]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.01-19.42.23:071][104]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.01-19.42.23:071][104]LogInit: FAudioDevice initialized.
+[2022.05.01-19.42.23:071][104]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestWorld'.
+[2022.05.01-19.42.23:091][104]LogLoad: Game class is 'GameModeBase'
+[2022.05.01-19.42.23:093][104]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestWorld.TestWorld up for play (max tick rate 0) at 2022.05.01-21.42.23
+[2022.05.01-19.42.23:093][104]LogWorld: Bringing up level for play took: 0.001623
+[2022.05.01-19.42.23:094][104]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.01-19.42.23:098][104]PIE: Server logged in
+[2022.05.01-19.42.23:098][104]PIE: Play in editor total start time 0.091 seconds.
+[2022.05.01-19.42.24:548][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.01-19.42.24:548][262]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestWorld
+[2022.05.01-19.42.24:549][262]LogWorld: UWorld::CleanupWorld for TestWorld, bSessionEnded=true, bCleanupResources=true
+[2022.05.01-19.42.24:549][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.01-19.42.24:575][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.01-19.42.24:576][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.01-19.42.24:581][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.01-19.42.24:582][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.01-19.42.24:583][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.01-19.42.24:593][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.05.01-19.42.24:624][264]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.01-19.42.30:374][917]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.01-19.42.30:387][917]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.01-19.42.32:532][175]LogContentBrowser: Attempting asset rename: NewFolder -> HUD
+[2022.05.01-19.42.32:536][175]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.01-19.42.40:237][ 82]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.05.01-19.42.40:243][ 82]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.05.01-19.42.44:296][569]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PauseMenu
+[2022.05.01-19.42.44:337][569]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.05.01-19.42.46:058][771]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HUD/PauseMenu.PauseMenu
+[2022.05.01-19.42.46:366][771]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
+[2022.05.01-19.42.50:146][ 26]LogSlate: Window 'PauseMenu' being destroyed
+[2022.05.01-19.44.12:683][470]LogSlate: Took 0.005161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.05.01-19.44.42:130][921]LogEditorTransaction: Undo Edit Size Rule
+[2022.05.01-19.44.43:617][ 52]Cmd: TRANSACTION UNDO
+[2022.05.01-19.44.43:618][ 52]LogEditorTransaction: Undo Drag and Drop Widget
+[2022.05.01-19.44.51:985][ 42]LogEditorTransaction: Undo Add Widget
+[2022.05.01-19.48.16:091][162]LogEditorTransaction: Undo Remove Widget
+[2022.05.01-19.50.57:612][280]BlueprintLog: New page: Compile PauseMenu
+[2022.05.01-19.50.57:676][280]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2022.05.01-19.50.58:405][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/PauseMenu" FILE="../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/HUD/PauseMenu.uasset" SILENT=true
+[2022.05.01-19.50.58:439][360]LogSavePackage: Moving '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Saved/PauseMenu5AA42FC644C765814B6AD6810A398918.tmp' to '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/HUD/PauseMenu.uasset'
+[2022.05.01-19.50.58:461][360]AssetCheck: New page: Asset Save: PauseMenu
+[2022.05.01-19.50.58:461][360]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD/PauseMenu.PauseMenu
+[2022.05.01-20.06.45:188][718]Candidate modules for hot reload:
+[2022.05.01-20.06.45:188][718]  BirdRacer
+[2022.05.01-20.06.45:191][718]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,4949 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.06.45:196][718]Warning: Starting HotReload took  0.1s.
+[2022.05.01-20.07.05:251][821]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:07:05
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Parsing headers for BirdRacerEditor
+[2022.05.01-20.07.05:252][821]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\BirdRacer.uproject" "C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\BirdRacerEditor\Development\BirdRacerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Joakim\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Reflection code generated for BirdRacerEditor in 5.8823264 seconds
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.07.05:252][821]CompilerResultsLog: Building 7 actions with 12 processes...
+[2022.05.01-20.07.05:252][821]CompilerResultsLog:   [1/7] BirdRacer.init.gen.cpp
+[2022.05.01-20.07.05:252][821]CompilerResultsLog:   [2/7] MainPlayerController.gen.cpp
+[2022.05.01-20.07.05:252][821]CompilerResultsLog:   [3/7] Seagull.cpp
+[2022.05.01-20.07.05:253][821]CompilerResultsLog:   [4/7] MainPlayerController.cpp
+[2022.05.01-20.07.05:253][821]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(25) : error C2059: syntax error: '}'
+[2022.05.01-20.07.05:254][821]LogMainFrame: MainFrame: Module compiling took 20.083 seconds
+[2022.05.01-20.07.05:256][821]Warning: HotReload failed, recompile failed
+[2022.05.01-20.07.41:063][167]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.07.41:068][167]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.07.41:925][259]Candidate modules for hot reload:
+[2022.05.01-20.07.41:925][259]  BirdRacer
+[2022.05.01-20.07.41:925][259]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1486 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.07.41:929][259]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.07.43:608][415]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:07:43
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.07.43:609][415]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-1486.lib
+[2022.05.01-20.07.43:609][415]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1486.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1486.exp
+[2022.05.01-20.07.43:609][415]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-1486.dll
+[2022.05.01-20.07.43:609][415]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1486.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1486.suppressed.exp
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::HidePauseMenu_Implementation(void)" (?HidePauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::HidePauseMenu_Implementation(void)" (?HidePauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.07.43:609][415]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.07.43:611][415]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-1486.dll : fatal error LNK1120: 5 unresolved externals
+[2022.05.01-20.07.43:611][415]LogMainFrame: MainFrame: Module compiling took 1.690 seconds
+[2022.05.01-20.07.43:611][415]Warning: HotReload failed, recompile failed
+[2022.05.01-20.08.01:241][520]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.08.01:247][520]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.10.03:305][158]Candidate modules for hot reload:
+[2022.05.01-20.10.03:305][158]  BirdRacer
+[2022.05.01-20.10.03:305][158]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,7766 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.10.03:309][158]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.10.06:317][473]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:10:06
+[2022.05.01-20.10.06:317][473]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.10.06:317][473]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.10.06:317][473]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.10.06:317][473]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.05.01-20.10.06:317][473]CompilerResultsLog:   [1/4] MainPlayerController.cpp
+[2022.05.01-20.10.06:317][473]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(32) : error C2039: 'SwitchPauseMenu_Implementation': is not a member of 'AMainPlayerController'
+[2022.05.01-20.10.06:317][473]CompilerResultsLog:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Public\MainPlayerController.h(13): note: see declaration of 'AMainPlayerController'
+[2022.05.01-20.10.06:317][473]LogMainFrame: MainFrame: Module compiling took 3.016 seconds
+[2022.05.01-20.10.06:317][473]Warning: HotReload failed, recompile failed
+[2022.05.01-20.10.25:173][724]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.10.25:178][724]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.10.48:357][223]Candidate modules for hot reload:
+[2022.05.01-20.10.48:357][223]  BirdRacer
+[2022.05.01-20.10.48:357][223]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,4668 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.10.48:360][223]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.10.49:899][362]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:10:49
+[2022.05.01-20.10.49:899][362]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.10.49:899][362]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.10.49:899][362]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.10.49:900][362]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-4668.lib
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4668.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4668.exp
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-4668.dll
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4668.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4668.suppressed.exp
+[2022.05.01-20.10.49:900][362]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.10.49:900][362]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.10.49:901][362]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.10.49:901][362]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-4668.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.01-20.10.49:901][362]LogMainFrame: MainFrame: Module compiling took 1.549 seconds
+[2022.05.01-20.10.49:902][362]Warning: HotReload failed, recompile failed
+[2022.05.01-20.16.44:976][223]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.16.44:981][223]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.16.46:219][361]Candidate modules for hot reload:
+[2022.05.01-20.16.46:219][361]  BirdRacer
+[2022.05.01-20.16.46:219][361]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,3764 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.16.46:223][361]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.16.49:478][704]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:16:49
+[2022.05.01-20.16.49:479][704]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.16.49:479][704]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.16.49:479][704]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: Building 16 actions with 12 processes...
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   [1/16] NPCRaceGameMode.gen.cpp
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   [2/16] Item.gen.cpp
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   [3/16] Seagull.gen.cpp
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   [4/16] BirdRacerGameModeBase.gen.cpp
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:488][704]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [5/16] AmmoPickup.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.05.01-20.16.49:489][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:489][704]CompilerResultsLog: 
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [6/16] BirdRacer.init.gen.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [7/16] BirdRacer.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [8/16] MainPlayerController.gen.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [9/16] FinishLine.gen.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [10/16] AmmoPickup.gen.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [11/16] CheckPointOne.gen.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [12/16] Item.cpp
+[2022.05.01-20.16.49:489][704]CompilerResultsLog:   [13/16] SpeedBoost.gen.cpp
+[2022.05.01-20.16.49:489][704]LogMainFrame: MainFrame: Module compiling took 3.274 seconds
+[2022.05.01-20.16.49:489][704]Warning: HotReload failed, recompile failed
+[2022.05.01-20.20.53:860][337]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.20.53:865][337]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.20.55:203][489]Candidate modules for hot reload:
+[2022.05.01-20.20.55:203][489]  BirdRacer
+[2022.05.01-20.20.55:203][489]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1718 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.20.55:207][489]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.20.56:800][635]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:20:56
+[2022.05.01-20.20.56:801][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.20.56:801][635]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.20.56:801][635]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.20.56:801][635]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-1718.lib
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1718.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1718.exp
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-1718.dll
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1718.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1718.suppressed.exp
+[2022.05.01-20.20.56:801][635]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.20.56:801][635]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.20.56:802][635]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.20.56:802][635]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.20.56:802][635]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.20.56:802][635]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.20.56:802][635]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-1718.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.01-20.20.56:802][635]LogMainFrame: MainFrame: Module compiling took 1.603 seconds
+[2022.05.01-20.20.56:802][635]Warning: HotReload failed, recompile failed
+[2022.05.01-20.26.55:102][738]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.26.55:107][738]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.26.55:986][832]Candidate modules for hot reload:
+[2022.05.01-20.26.55:986][832]  BirdRacer
+[2022.05.01-20.26.55:986][832]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,0211 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.26.55:989][832]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:26:57
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-0211.lib
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-0211.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-0211.exp
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-0211.dll
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-0211.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-0211.suppressed.exp
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.26.57:580][978]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-0211.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.01-20.26.57:580][978]LogMainFrame: MainFrame: Module compiling took 1.598 seconds
+[2022.05.01-20.26.57:580][978]Warning: HotReload failed, recompile failed
+[2022.05.01-20.27.14:083][950]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.27.14:090][950]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.27.28:794][575]LogUObjectHash: Compacting FUObjectHashTables data took  18.00ms
+[2022.05.01-20.27.53:849][998]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MainPlayerController.BP_MainPlayerController
+[2022.05.01-20.27.55:635][998]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.05.01-20.28.22:728][457]Candidate modules for hot reload:
+[2022.05.01-20.28.22:728][457]  BirdRacer
+[2022.05.01-20.28.22:728][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,4749 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.28.22:731][457]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.28.24:355][608]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:28:24
+[2022.05.01-20.28.24:355][608]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.28.24:355][608]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.28.24:355][608]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.28.24:355][608]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.28.24:355][608]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-4749.lib
+[2022.05.01-20.28.24:355][608]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4749.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4749.exp
+[2022.05.01-20.28.24:355][608]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-4749.dll
+[2022.05.01-20.28.24:355][608]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4749.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-4749.suppressed.exp
+[2022.05.01-20.28.24:356][608]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.28.24:356][608]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-4749.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.01-20.28.24:356][608]LogMainFrame: MainFrame: Module compiling took 1.633 seconds
+[2022.05.01-20.28.24:356][608]Warning: HotReload failed, recompile failed
+[2022.05.01-20.28.29:050][162]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.28.29:061][162]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.28.29:675][234]LogSlate: Took 0.001611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.01-20.31.31:486][  2]Candidate modules for hot reload:
+[2022.05.01-20.31.31:486][  2]  BirdRacer
+[2022.05.01-20.31.31:486][  2]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,7589 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.31.31:489][  2]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.31.33:002][139]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:31:33
+[2022.05.01-20.31.33:002][139]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.31.33:002][139]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.31.33:002][139]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.31.33:002][139]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.31.33:002][139]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-7589.lib
+[2022.05.01-20.31.33:002][139]CompilerResultsLog:   MainPlayerController.gen.cpp.obj : warning LNK4006: "public: void __cdecl AMainPlayerController::RemovePauseMenu(void)" (?RemovePauseMenu@AMainPlayerController@@QEAAXXZ) already defined in MainPlayerController.cpp.obj; second definition ignored
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:   MainPlayerController.gen.cpp.obj : warning LNK4006: "public: void __cdecl AMainPlayerController::ShowPauseMenu(void)" (?ShowPauseMenu@AMainPlayerController@@QEAAXXZ) already defined in MainPlayerController.cpp.obj; second definition ignored
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-7589.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-7589.exp
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-7589.dll
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2005: "public: void __cdecl AMainPlayerController::RemovePauseMenu(void)" (?RemovePauseMenu@AMainPlayerController@@QEAAXXZ) already defined in MainPlayerController.cpp.obj
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2005: "public: void __cdecl AMainPlayerController::ShowPauseMenu(void)" (?ShowPauseMenu@AMainPlayerController@@QEAAXXZ) already defined in MainPlayerController.cpp.obj
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-7589.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-7589.suppressed.exp
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::RemovePauseMenu_Implementation(void)" (?RemovePauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::RemovePauseMenu_Implementation(void)" (?RemovePauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::ShowPauseMenu_Implementation(void)" (?ShowPauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMainPlayerController::ShowPauseMenu_Implementation(void)" (?ShowPauseMenu_Implementation@AMainPlayerController@@UEAAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.31.33:003][139]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-7589.dll : fatal error LNK1120: 6 unresolved externals
+[2022.05.01-20.31.33:003][139]LogMainFrame: MainFrame: Module compiling took 1.521 seconds
+[2022.05.01-20.31.33:003][139]Warning: HotReload failed, recompile failed
+[2022.05.01-20.36.53:321][ 22]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.36.53:330][ 22]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.36.55:237][236]Candidate modules for hot reload:
+[2022.05.01-20.36.55:237][236]  BirdRacer
+[2022.05.01-20.36.55:237][236]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1234 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.01-20.36.55:240][236]Warning: Starting HotReload took  0.0s.
+[2022.05.01-20.36.56:854][385]CompilerResultsLog: New page: Compilation - 2 May 2022, 00:36:56
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-1234.lib
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1234.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1234.exp
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-1234.dll
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1234.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1234.suppressed.exp
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.01-20.36.56:855][385]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-1234.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.01-20.36.56:855][385]LogMainFrame: MainFrame: Module compiling took 1.622 seconds
+[2022.05.01-20.36.56:856][385]Warning: HotReload failed, recompile failed
+[2022.05.01-20.37.05:006][354]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.37.05:017][354]LogSlate: Window 'Message Log' being destroyed
+[2022.05.01-20.37.09:407][829]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2022.05.01-20.37.09:489][829]LogSavePackage: Moving '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Saved/BP_MainPlayerControllerD5838CFB463CFE5972C33ABDA431E3D7.tmp' to '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/Blueprints/BP_MainPlayerController.uasset'
+[2022.05.01-20.37.09:518][829]AssetCheck: New page: Asset Save: BP_MainPlayerController
+[2022.05.01-20.37.09:519][829]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MainPlayerController.BP_MainPlayerController
+[2022.05.01-20.39.18:846][715]LogAudioMixer: Resetting audio stream to device id 
+[2022.05.01-20.39.18:881][715]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.01-20.39.18:881][715]LogAudioMixer: Display: 1: FrontRight
+[2022.05.01-20.39.26:544][738]LogAudioMixer: Resetting audio stream to device id 
+[2022.05.01-20.39.26:641][738]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.01-20.39.26:641][738]LogAudioMixer: Display: 1: FrontRight
+[2022.05.02-08.52.20:933][740]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2022.05.02-08.52.20:933][740]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2022.05.02-08.52.21:262][740]LogAudioMixer: Resetting audio stream to device id 
+[2022.05.02-08.52.21:453][740]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.02-08.52.21:454][740]LogAudioMixer: Display: 1: FrontRight
+[2022.05.02-08.52.21:644][741]LogHttp: Warning: 000002017EE57200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF3FFCC8A-44CF-CAE5-A926-6F806BB889A5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=2e27c0f24d8e267af6a08e9157d151a2%7Ccad6d782c3574624855ec4b08c22a5de%7C49aa142c-5bbc-4f0c-b76a-cb910a14156e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.05.02-08.52.21:646][741]LogHttp: Warning: 000002017EE57200: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.05.02-08.52.21:647][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2011a4f3eb0 [can pipeline])
+[2022.05.02-08.52.21:648][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.230.15.10) port 443 (#1))
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.05.02-08.52.21:654][741]LogHttp: Warning: 000002017EE57200: libcurl info message cache 7 (Closing connection 1)
+[2022.05.02-08.52.21:666][742]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF3FFCC8A-44CF-CAE5-A926-6F806BB889A5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=2e27c0f24d8e267af6a08e9157d151a2%7Ccad6d782c3574624855ec4b08c22a5de%7C49aa142c-5bbc-4f0c-b76a-cb910a14156e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.05.02-09.43.19:721][339]Candidate modules for hot reload:
+[2022.05.02-09.43.19:721][339]  BirdRacer
+[2022.05.02-09.43.19:726][339]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,3636 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.02-09.43.20:018][339]Warning: Starting HotReload took  0.4s.
+[2022.05.02-09.43.52:595][218]CompilerResultsLog: New page: Compilation - 2 May 2022, 13:43:52
+[2022.05.02-09.43.52:604][218]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.02-09.43.52:604][218]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.02-09.43.52:604][218]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.02-09.43.52:604][218]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.05.02-09.43.52:604][218]CompilerResultsLog:   [1/4] MainPlayerController.cpp
+[2022.05.02-09.43.52:604][218]CompilerResultsLog:   [2/4] UE4Editor-BirdRacer-3636.lib
+[2022.05.02-09.43.52:604][218]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3636.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3636.exp
+[2022.05.02-09.43.52:604][218]CompilerResultsLog:   [3/4] UE4Editor-BirdRacer-3636.dll
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3636.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-3636.suppressed.exp
+[2022.05.02-09.43.52:605][218]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.02-09.43.52:605][218]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-3636.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.02-09.43.52:606][218]LogMainFrame: MainFrame: Module compiling took 32.940 seconds
+[2022.05.02-09.43.52:610][218]Warning: HotReload failed, recompile failed
+[2022.05.02-09.47.29:043][ 12]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-09.47.29:054][ 12]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-16.52.29:121][617]Candidate modules for hot reload:
+[2022.05.02-16.52.29:124][617]  BirdRacer
+[2022.05.02-16.52.29:129][617]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1388 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.02-16.52.29:135][617]Warning: Starting HotReload took  0.2s.
+[2022.05.02-16.52.31:725][904]CompilerResultsLog: New page: Compilation - 2 May 2022, 20:52:31
+[2022.05.02-16.52.31:732][904]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.02-16.52.31:733][904]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.02-16.52.31:733][904]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.02-16.52.31:733][904]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.02-16.52.31:733][904]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-1388.lib
+[2022.05.02-16.52.31:733][904]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1388.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1388.exp
+[2022.05.02-16.52.31:733][904]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-1388.dll
+[2022.05.02-16.52.31:733][904]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1388.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-1388.suppressed.exp
+[2022.05.02-16.52.31:735][904]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-16.52.31:735][904]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.02-16.52.31:735][904]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-16.52.31:735][904]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.02-16.52.31:736][904]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-1388.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.02-16.52.31:738][904]LogMainFrame: MainFrame: Module compiling took 2.708 seconds
+[2022.05.02-16.52.31:740][904]Warning: HotReload failed, recompile failed
+[2022.05.02-17.07.37:573][294]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.07.37:585][294]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.07.38:899][443]Candidate modules for hot reload:
+[2022.05.02-17.07.38:899][443]  BirdRacer
+[2022.05.02-17.07.38:899][443]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,9999 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.02-17.07.38:902][443]Warning: Starting HotReload took  0.0s.
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: New page: Compilation - 2 May 2022, 21:07:40
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-9999.lib
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-9999.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-9999.exp
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-9999.dll
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-9999.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-9999.suppressed.exp
+[2022.05.02-17.07.40:557][598]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.02-17.07.40:557][598]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.02-17.07.40:558][598]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-9999.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.02-17.07.40:558][598]LogMainFrame: MainFrame: Module compiling took 1.664 seconds
+[2022.05.02-17.07.40:558][598]Warning: HotReload failed, recompile failed
+[2022.05.02-17.19.05:832][364]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.19.05:835][364]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.19.07:779][369]Candidate modules for hot reload:
+[2022.05.02-17.19.07:779][369]  BirdRacer
+[2022.05.02-17.19.07:779][369]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,1752 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.02-17.19.07:782][369]Warning: Starting HotReload took  0.0s.
+[2022.05.02-17.19.10:797][712]CompilerResultsLog: New page: Compilation - 2 May 2022, 21:19:10
+[2022.05.02-17.19.10:798][712]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.02-17.19.10:798][712]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.02-17.19.10:798][712]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.02-17.19.10:798][712]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.05.02-17.19.10:798][712]CompilerResultsLog:   [1/4] MainPlayerController.cpp
+[2022.05.02-17.19.10:799][712]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(117) : error C2039: 'TogglePauseMenu': is not a member of 'AMainPlayerController'
+[2022.05.02-17.19.10:799][712]CompilerResultsLog:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Public\MainPlayerController.h(13): note: see declaration of 'AMainPlayerController'
+[2022.05.02-17.19.10:799][712]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(119) : error C2065: 'bPauseMenuVisible': undeclared identifier
+[2022.05.02-17.19.10:799][712]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(121) : error C3861: 'RemovePauseMenu': identifier not found
+[2022.05.02-17.19.10:799][712]CompilerResultsLog:    C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Source\BirdRacer\Private\MainPlayerController.cpp(126) : error C3861: 'DisplayPauseMenu': identifier not found
+[2022.05.02-17.19.10:799][712]LogMainFrame: MainFrame: Module compiling took 3.024 seconds
+[2022.05.02-17.19.10:799][712]Warning: HotReload failed, recompile failed
+[2022.05.02-17.21.05:072][770]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.21.05:081][770]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.21.07:072][988]Candidate modules for hot reload:
+[2022.05.02-17.21.07:072][988]  BirdRacer
+[2022.05.02-17.21.07:072][988]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,8292 BirdRacerEditor Win64 Development -Project="C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject" "C:/Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.02-17.21.07:076][988]Warning: Starting HotReload took  0.0s.
+[2022.05.02-17.21.08:666][132]CompilerResultsLog: New page: Compilation - 2 May 2022, 21:21:08
+[2022.05.02-17.21.08:666][132]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer).
+[2022.05.02-17.21.08:666][132]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.02-17.21.08:666][132]CompilerResultsLog: Using Visual Studio 2019 14.29.30137 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.02-17.21.08:666][132]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.05.02-17.21.08:666][132]CompilerResultsLog:   [1/3] UE4Editor-BirdRacer-8292.lib
+[2022.05.02-17.21.08:666][132]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8292.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8292.exp
+[2022.05.02-17.21.08:666][132]CompilerResultsLog:   [2/3] UE4Editor-BirdRacer-8292.dll
+[2022.05.02-17.21.08:666][132]CompilerResultsLog:      Creating library C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8292.suppressed.lib and object C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Intermediate\Build\Win64\UE4Editor\Development\BirdRacer\UE4Editor-BirdRacer-8292.suppressed.exp
+[2022.05.02-17.21.08:667][132]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:     Hint on symbols that are defined and could potentially match:
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UCameraComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UCameraComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UParticleSystemComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UParticleSystemComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USphereComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USphereComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl USpringArmComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@USpringArmComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog:       "__declspec(dllimport) private: static class UClass * __cdecl UStaticMeshComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UStaticMeshComponent@@CAPEAVUClass@@XZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "protected: virtual void __cdecl AMainPlayerController::BeginPlay(void)" (?BeginPlay@AMainPlayerController@@MEAAXXZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog: Error:   MainPlayerController.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class AMainPlayerController>(class AMainPlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAMainPlayerController@@@@YAPEAVUUserWidget@@PEAVAMainPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog: Error:   MainPlayerController.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FObjectPropertyParams const Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PauseMenu''(void)" (??__E?NewProp_PauseMenu@Z_Construct_UClass_AMainPlayerController_Statics@@2UFObjectPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2022.05.02-17.21.08:667][132]CompilerResultsLog: Error:   C:\Users\Joakim\Desktop\Skule\Programming 2\BirdRacer\Binaries\Win64\UE4Editor-BirdRacer-8292.dll : fatal error LNK1120: 4 unresolved externals
+[2022.05.02-17.21.08:667][132]LogMainFrame: MainFrame: Module compiling took 1.599 seconds
+[2022.05.02-17.21.08:667][132]Warning: HotReload failed, recompile failed
+[2022.05.02-17.21.20:130][494]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.21.20:139][494]LogSlate: Window 'Message Log' being destroyed
+[2022.05.02-17.34.22:565][454]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.22:581][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-17.34.30:220][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld" FILE="../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/Maps/TestWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.02-17.34.30:621][214]LogUObjectHash: Compacting FUObjectHashTables data took  40.11ms
+[2022.05.02-17.34.30:955][214]LogSavePackage: Moving '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Saved/TestWorld2439FE2B470475381F24E3B09D7F7F6A.tmp' to '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/Maps/TestWorld.umap'
+[2022.05.02-17.34.31:080][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestWorld_BuiltData" FILE="../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset" SILENT=true
+[2022.05.02-17.34.31:147][214]LogSavePackage: Moving '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Saved/TestWorld_BuiltData175E54344579197D4CD423BA2CB5ECF2.tmp' to '../../../../../../Users/Joakim/Desktop/Skule/Programming 2/BirdRacer/Content/Maps/TestWorld_BuiltData.uasset'
+[2022.05.02-17.34.31:376][214]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.02-17.34.31:377][214]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestWorld_BuiltData.TestWorld_BuiltData
+[2022.05.02-17.34.31:377][214]LogContentValidation: Display: Validating World /Game/Maps/TestWorld.TestWorld
+[2022.05.02-17.34.33:265][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.05.02-17.34.34:862][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.05.02-17.34.35:066][576]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.35:067][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-17.34.35:084][576]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.35:084][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.02-17.34.35:402][576]LogSlate: Window 'BirdRacer - Unreal Editor' being destroyed
+[2022.05.02-17.34.35:885][577]Cmd: QUIT_EDITOR
+[2022.05.02-17.34.35:886][577]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.05.02-17.34.35:902][577]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.05.02-17.34.36:802][577]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.05.02-17.34.36:803][577]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.05.02-17.34.36:804][577]LogAudio: Display: Audio Device unregistered from world 'TestWorld'.
+[2022.05.02-17.34.36:807][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.02-17.34.36:818][577]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.02-17.34.36:886][577]LogAudio: Display: Audio Device Manager Shutdown
+[2022.05.02-17.34.36:887][577]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.05.02-17.34.36:914][577]LogExit: Preparing to exit.
+[2022.05.02-17.34.37:054][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.05.02-17.34.37:854][577]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.37:860][577]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.38:231][577]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.05.02-17.34.38:236][577]LogExit: Editor shut down
+[2022.05.02-17.34.38:250][577]LogExit: Transaction tracking system shut down
+[2022.05.02-17.34.38:285][577]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.05.02-17.34.39:911][577]LogExit: Object subsystem successfully closed.
+[2022.05.02-17.34.39:978][577]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.02-17.34.39:978][577]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.05.02-17.34.39:978][577]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.05.02-17.34.39:978][577]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.02-17.34.39:978][577]LogShaderCompilers: Display: ================================================
+[2022.05.02-17.34.40:045][577]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.05.02-17.34.40:243][577]LogModuleManager: Shutting down and abandoning module SequencerWidgets (884)
+[2022.05.02-17.34.40:243][577]LogModuleManager: Shutting down and abandoning module BlueprintGraph (882)
+[2022.05.02-17.34.40:243][577]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (880)
+[2022.05.02-17.34.40:243][577]LogModuleManager: Shutting down and abandoning module Voice (878)
+[2022.05.02-17.34.40:244][577]LogModuleManager: Shutting down and abandoning module BirdRacer (876)
+[2022.05.02-17.34.40:244][577]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (875)
+[2022.05.02-17.34.40:244][577]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (872)
+[2022.05.02-17.34.40:245][577]LogModuleManager: Shutting down and abandoning module SceneOutliner (870)
+[2022.05.02-17.34.40:245][577]LogModuleManager: Shutting down and abandoning module AddContentDialog (868)
+[2022.05.02-17.34.40:278][577]LogModuleManager: Shutting down and abandoning module WidgetCarousel (867)
+[2022.05.02-17.34.40:278][577]LogModuleManager: Shutting down and abandoning module EditorWidgets (864)
+[2022.05.02-17.34.40:278][577]LogModuleManager: Shutting down and abandoning module StatsViewer (862)
+[2022.05.02-17.34.40:281][577]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (860)
+[2022.05.02-17.34.40:282][577]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (858)
+[2022.05.02-17.34.40:282][577]LogModuleManager: Shutting down and abandoning module AutomationWorker (856)
+[2022.05.02-17.34.40:283][577]LogModuleManager: Shutting down and abandoning module SteamVREditor (854)
+[2022.05.02-17.34.40:283][577]LogModuleManager: Shutting down and abandoning module OculusMR (852)
+[2022.05.02-17.34.40:283][577]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (850)
+[2022.05.02-17.34.40:287][577]LogModuleManager: Shutting down and abandoning module TakeRecorder (849)
+[2022.05.02-17.34.40:292][577]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (846)
+[2022.05.02-17.34.40:293][577]LogModuleManager: Shutting down and abandoning module TakesCore (844)
+[2022.05.02-17.34.40:293][577]LogModuleManager: Shutting down and abandoning module OpenXRInput (842)
+[2022.05.02-17.34.40:294][577]LogModuleManager: Shutting down and abandoning module GooglePADEditor (840)
+[2022.05.02-17.34.40:294][577]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (838)
+[2022.05.02-17.34.40:295][577]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (836)
+[2022.05.02-17.34.40:298][577]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (834)
+[2022.05.02-17.34.40:299][577]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (832)
+[2022.05.02-17.34.40:302][577]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (830)
+[2022.05.02-17.34.40:303][577]LogModuleManager: Shutting down and abandoning module PlanarCut (828)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (826)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (824)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (822)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (820)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (818)
+[2022.05.02-17.34.40:304][577]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (816)
+[2022.05.02-17.34.40:306][577]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (814)
+[2022.05.02-17.34.40:306][577]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (812)
+[2022.05.02-17.34.40:306][577]LogModuleManager: Shutting down and abandoning module WebMMedia (810)
+[2022.05.02-17.34.40:306][577]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (808)
+[2022.05.02-17.34.40:308][577]LogModuleManager: Shutting down and abandoning module SequenceRecorder (807)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (804)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (802)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (800)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (798)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (796)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (794)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (792)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module CharacterAI (790)
+[2022.05.02-17.34.40:309][577]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (788)
+[2022.05.02-17.34.40:311][577]LogModuleManager: Shutting down and abandoning module TextureAlignMode (786)
+[2022.05.02-17.34.40:311][577]LogModuleManager: Shutting down and abandoning module BspMode (784)
+[2022.05.02-17.34.40:312][577]LogModuleManager: Shutting down and abandoning module GeometryMode (782)
+[2022.05.02-17.34.40:312][577]LogModuleManager: Shutting down and abandoning module SmartSnapping (780)
+[2022.05.02-17.34.40:312][577]LogModuleManager: Shutting down and abandoning module SessionServices (778)
+[2022.05.02-17.34.40:312][577]LogModuleManager: Shutting down and abandoning module MeshPaint (776)
+[2022.05.02-17.34.40:314][577]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (774)
+[2022.05.02-17.34.40:314][577]LogModuleManager: Shutting down and abandoning module FoliageEdit (772)
+[2022.05.02-17.34.40:315][577]LogModuleManager: Shutting down and abandoning module LandscapeEditor (770)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module MeshPaintMode (768)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (766)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module ActorPickerMode (764)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module PlacementMode (762)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module ViewportSnapping (760)
+[2022.05.02-17.34.40:320][577]LogModuleManager: Shutting down and abandoning module ViewportInteraction (758)
+[2022.05.02-17.34.40:321][577]LogModuleManager: Shutting down and abandoning module ClothPainter (756)
+[2022.05.02-17.34.40:324][577]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (755)
+[2022.05.02-17.34.40:325][577]LogModuleManager: Shutting down and abandoning module LogVisualizer (752)
+[2022.05.02-17.34.40:328][577]LogModuleManager: Shutting down and abandoning module IntroTutorials (750)
+[2022.05.02-17.34.40:329][577]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (749)
+[2022.05.02-17.34.40:330][577]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (746)
+[2022.05.02-17.34.40:331][577]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (744)
+[2022.05.02-17.34.40:332][577]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (742)
+[2022.05.02-17.34.40:332][577]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (741)
+[2022.05.02-17.34.41:418][577]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (738)
+[2022.05.02-17.34.41:418][577]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (736)
+[2022.05.02-17.34.41:418][577]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (734)
+[2022.05.02-17.34.41:418][577]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (732)
+[2022.05.02-17.34.41:418][577]LogModuleManager: Shutting down and abandoning module TraceInsights (730)
+[2022.05.02-17.34.41:422][577]MemoryProfiler: Shutdown
+[2022.05.02-17.34.41:422][577]NetworkingProfiler: Shutdown
+[2022.05.02-17.34.41:423][577]LoadingProfiler: Shutdown
+[2022.05.02-17.34.41:424][577]TimingProfiler: Shutdown
+[2022.05.02-17.34.41:425][577]LogModuleManager: Shutting down and abandoning module TraceServices (729)
+[2022.05.02-17.34.41:426][577]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (726)
+[2022.05.02-17.34.41:427][577]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (724)
+[2022.05.02-17.34.41:427][577]LogModuleManager: Shutting down and abandoning module InputBindingEditor (722)
+[2022.05.02-17.34.41:428][577]LogModuleManager: Shutting down and abandoning module MergeActors (720)
+[2022.05.02-17.34.41:429][577]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (718)
+[2022.05.02-17.34.41:430][577]LogModuleManager: Shutting down and abandoning module LocalizationService (717)
+[2022.05.02-17.34.41:431][577]LogModuleManager: Shutting down and abandoning module HardwareTargeting (714)
+[2022.05.02-17.34.41:431][577]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (712)
+[2022.05.02-17.34.41:432][577]LogModuleManager: Shutting down and abandoning module UndoHistory (710)
+[2022.05.02-17.34.41:432][577]LogModuleManager: Shutting down and abandoning module XmlParser (708)
+[2022.05.02-17.34.41:432][577]LogModuleManager: Shutting down and abandoning module Blutility (706)
+[2022.05.02-17.34.41:433][577]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (704)
+[2022.05.02-17.34.41:433][577]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (703)
+[2022.05.02-17.34.41:434][577]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (700)
+[2022.05.02-17.34.41:434][577]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (699)
+[2022.05.02-17.34.41:435][577]LogModuleManager: Shutting down and abandoning module SettingsEditor (696)
+[2022.05.02-17.34.41:435][577]LogModuleManager: Shutting down and abandoning module ProjectLauncher (694)
+[2022.05.02-17.34.41:436][577]LogModuleManager: Shutting down and abandoning module SessionFrontend (692)
+[2022.05.02-17.34.41:437][577]LogModuleManager: Shutting down and abandoning module ProfilerClient (690)
+[2022.05.02-17.34.41:437][577]LogModuleManager: Shutting down and abandoning module DeviceManager (688)
+[2022.05.02-17.34.41:438][577]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (687)
+[2022.05.02-17.34.41:472][577]LogModuleManager: Shutting down and abandoning module AutomationController (684)
+[2022.05.02-17.34.41:473][577]LogModuleManager: Shutting down and abandoning module AutomationWindow (682)
+[2022.05.02-17.34.41:474][577]LogModuleManager: Shutting down and abandoning module Layers (680)
+[2022.05.02-17.34.41:476][577]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (678)
+[2022.05.02-17.34.41:476][577]LogModuleManager: Shutting down and abandoning module DetailCustomizations (676)
+[2022.05.02-17.34.41:478][577]LogModuleManager: Shutting down and abandoning module PackagesDialog (674)
+[2022.05.02-17.34.41:479][577]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (672)
+[2022.05.02-17.34.41:483][577]LogModuleManager: Shutting down and abandoning module Persona (670)
+[2022.05.02-17.34.41:486][577]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (669)
+[2022.05.02-17.34.41:486][577]LogModuleManager: Shutting down and abandoning module AnimGraph (667)
+[2022.05.02-17.34.41:487][577]LogModuleManager: Shutting down and abandoning module Kismet (664)
+[2022.05.02-17.34.41:497][577]LogModuleManager: Shutting down and abandoning module KismetWidgets (663)
+[2022.05.02-17.34.41:497][577]LogModuleManager: Shutting down and abandoning module GraphEditor (660)
+[2022.05.02-17.34.41:499][577]LogModuleManager: Shutting down and abandoning module StructViewer (658)
+[2022.05.02-17.34.41:499][577]LogModuleManager: Shutting down and abandoning module ClassViewer (656)
+[2022.05.02-17.34.41:505][577]LogModuleManager: Shutting down and abandoning module Toolbox (654)
+[2022.05.02-17.34.41:505][577]LogModuleManager: Shutting down and abandoning module ModuleUI (652)
+[2022.05.02-17.34.41:505][577]LogModuleManager: Shutting down and abandoning module OutputLog (650)
+[2022.05.02-17.34.41:507][577]LogModuleManager: Shutting down and abandoning module GammaUI (648)
+[2022.05.02-17.34.41:507][577]LogModuleManager: Shutting down and abandoning module Documentation (646)
+[2022.05.02-17.34.41:508][577]LogModuleManager: Shutting down and abandoning module LiveCoding (644)
+[2022.05.02-17.34.41:510][577]LogModuleManager: Shutting down and abandoning module LevelSequence (642)
+[2022.05.02-17.34.41:511][577]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (640)
+[2022.05.02-17.34.41:511][577]LogModuleManager: Shutting down and abandoning module MovieScene (638)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (636)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module LauncherPlatform (634)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module AnalyticsET (632)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module PortalServices (630)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module PortalRpc (628)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module MessagingRpc (626)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (624)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module AudioMixerCore (623)
+[2022.05.02-17.34.41:513][577]LogModuleManager: Shutting down and abandoning module AIModule (620)
+[2022.05.02-17.34.41:515][577]LogModuleManager: Shutting down and abandoning module GameplayDebugger (619)
+[2022.05.02-17.34.41:516][577]LogModuleManager: Shutting down and abandoning module AITestSuite (617)
+[2022.05.02-17.34.41:516][577]LogModuleManager: Shutting down and abandoning module NavigationSystem (615)
+[2022.05.02-17.34.41:516][577]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (612)
+[2022.05.02-17.34.41:527][577]LogModuleManager: Shutting down and abandoning module ProfilerService (610)
+[2022.05.02-17.34.41:658][577]LogModuleManager: Shutting down and abandoning module TaskGraph (608)
+[2022.05.02-17.34.41:660][577]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (606)
+[2022.05.02-17.34.41:660][577]LogModuleManager: Shutting down and abandoning module OculusEditor (604)
+[2022.05.02-17.34.41:665][577]LogModuleManager: Shutting down and abandoning module OculusInput (602)
+[2022.05.02-17.34.41:665][577]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (600)
+[2022.05.02-17.34.41:665][577]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (598)
+[2022.05.02-17.34.41:665][577]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (596)
+[2022.05.02-17.34.41:665][577]LogModuleManager: Shutting down and abandoning module CollectionManager (595)
+[2022.05.02-17.34.41:666][577]LogModuleManager: Shutting down and abandoning module SynthesisEditor (592)
+[2022.05.02-17.34.41:667][577]LogModuleManager: Shutting down and abandoning module Synthesis (590)
+[2022.05.02-17.34.41:668][577]LogModuleManager: Shutting down and abandoning module TakeSequencer (588)
+[2022.05.02-17.34.41:668][577]LogModuleManager: Shutting down and abandoning module TakeMovieScene (586)
+[2022.05.02-17.34.41:668][577]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (584)
+[2022.05.02-17.34.41:668][577]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (582)
+[2022.05.02-17.34.41:669][577]LogModuleManager: Shutting down and abandoning module ScreenshotTools (580)
+[2022.05.02-17.34.41:669][577]LogModuleManager: Shutting down and abandoning module OpenXREditor (578)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (576)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module GooglePAD (574)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module EditableMesh (572)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (570)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module CableComponent (568)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module AudioCapture (566)
+[2022.05.02-17.34.41:670][577]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (565)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (562)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module AssetTags (560)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (558)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module AppleImageUtils (556)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module AndroidPermission (554)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (552)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (550)
+[2022.05.02-17.34.41:671][577]LogModuleManager: Shutting down and abandoning module TemplateSequence (548)
+[2022.05.02-17.34.41:672][577]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (546)
+[2022.05.02-17.34.41:672][577]LogOpenImageDenoise: OIDN shutting down
+[2022.05.02-17.34.41:672][577]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (544)
+[2022.05.02-17.34.41:673][577]LogModuleManager: Shutting down and abandoning module MotoSynth (542)
+[2022.05.02-17.34.41:673][577]LogModuleManager: Shutting down and abandoning module MeshConversion (540)
+[2022.05.02-17.34.41:673][577]LogModuleManager: Shutting down and abandoning module DynamicMesh (538)
+[2022.05.02-17.34.41:673][577]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (536)
+[2022.05.02-17.34.41:674][577]LogModuleManager: Shutting down and abandoning module GeometricObjects (534)
+[2022.05.02-17.34.41:675][577]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (532)
+[2022.05.02-17.34.41:675][577]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (530)
+[2022.05.02-17.34.41:675][577]LogModuleManager: Shutting down and abandoning module MediaCompositing (528)
+[2022.05.02-17.34.41:675][577]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (526)
+[2022.05.02-17.34.41:675][577]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (524)
+[2022.05.02-17.34.41:676][577]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (522)
+[2022.05.02-17.34.41:676][577]LogModuleManager: Shutting down and abandoning module ImgMedia (520)
+[2022.05.02-17.34.41:676][577]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (518)
+[2022.05.02-17.34.41:676][577]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (517)
+[2022.05.02-17.34.41:676][577]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (514)
+[2022.05.02-17.34.41:677][577]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (512)
+[2022.05.02-17.34.41:679][577]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (510)
+[2022.05.02-17.34.41:679][577]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (508)
+[2022.05.02-17.34.41:679][577]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (506)
+[2022.05.02-17.34.41:679][577]LogModuleManager: Shutting down and abandoning module PluginUtils (504)
+[2022.05.02-17.34.41:680][577]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (502)
+[2022.05.02-17.34.41:680][577]LogModuleManager: Shutting down and abandoning module ChaosNiagara (500)
+[2022.05.02-17.34.41:680][577]LogModuleManager: Shutting down and abandoning module FractureEditor (498)
+[2022.05.02-17.34.41:681][577]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (497)
+[2022.05.02-17.34.41:681][577]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (494)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module BackChannel (492)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (490)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module AutomationUtils (488)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module AlembicImporter (486)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module AlembicLibrary (485)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module GeometryCache (484)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (483)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (478)
+[2022.05.02-17.34.41:682][577]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (476)
+[2022.05.02-17.34.41:683][577]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (474)
+[2022.05.02-17.34.41:683][577]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (472)
+[2022.05.02-17.34.41:683][577]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (470)
+[2022.05.02-17.34.41:684][577]LogModuleManager: Shutting down and abandoning module PluginBrowser (468)
+[2022.05.02-17.34.41:687][577]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (466)
+[2022.05.02-17.34.41:688][577]LogModuleManager: Shutting down and abandoning module CurveEditorTools (464)
+[2022.05.02-17.34.41:689][577]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (462)
+[2022.05.02-17.34.41:689][577]LogModuleManager: Shutting down and abandoning module CryptoKeys (460)
+[2022.05.02-17.34.41:689][577]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (458)
+[2022.05.02-17.34.41:689][577]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (456)
+[2022.05.02-17.34.41:690][577]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (454)
+[2022.05.02-17.34.41:691][577]LogModuleManager: Shutting down and abandoning module GitSourceControl (452)
+[2022.05.02-17.34.41:692][577]LogModuleManager: Shutting down and abandoning module UObjectPlugin (450)
+[2022.05.02-17.34.41:692][577]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (448)
+[2022.05.02-17.34.41:694][577]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (446)
+[2022.05.02-17.34.41:694][577]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (444)
+[2022.05.02-17.34.41:694][577]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (442)
+[2022.05.02-17.34.41:696][577]LogModuleManager: Shutting down and abandoning module SourceControl (441)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (438)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (436)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (434)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (432)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (430)
+[2022.05.02-17.34.41:697][577]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (428)
+[2022.05.02-17.34.41:699][577]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (426)
+[2022.05.02-17.34.41:700][577]LogModuleManager: Shutting down and abandoning module LiveLink (424)
+[2022.05.02-17.34.42:234][577]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (422)
+[2022.05.02-17.34.42:235][577]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (420)
+[2022.05.02-17.34.42:235][577]LogModuleManager: Shutting down and abandoning module Paper2DEditor (418)
+[2022.05.02-17.34.42:238][577]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (416)
+[2022.05.02-17.34.42:238][577]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (414)
+[2022.05.02-17.34.42:241][577]LogModuleManager: Shutting down and abandoning module SignificanceManager (410)
+[2022.05.02-17.34.42:241][577]LogModuleManager: Shutting down and abandoning module SoundFields (408)
+[2022.05.02-17.34.42:242][577]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (406)
+[2022.05.02-17.34.42:242][577]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (404)
+[2022.05.02-17.34.42:242][577]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (402)
+[2022.05.02-17.34.42:243][577]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (398)
+[2022.05.02-17.34.42:243][577]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (396)
+[2022.05.02-17.34.42:243][577]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (394)
+[2022.05.02-17.34.42:243][577]LogModuleManager: Shutting down and abandoning module ActorSequence (392)
+[2022.05.02-17.34.42:243][577]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (390)
+[2022.05.02-17.34.42:244][577]LogModuleManager: Shutting down and abandoning module TcpMessaging (388)
+[2022.05.02-17.34.42:345][577]LogModuleManager: Shutting down and abandoning module UdpMessaging (386)
+[2022.05.02-17.34.42:446][577]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (384)
+[2022.05.02-17.34.42:446][577]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (382)
+[2022.05.02-17.34.42:446][577]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (380)
+[2022.05.02-17.34.42:446][577]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (378)
+[2022.05.02-17.34.42:446][577]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (376)
+[2022.05.02-17.34.42:448][577]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.05.02-17.34.42:448][577]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (374)
+[2022.05.02-17.34.42:448][577]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (372)
+[2022.05.02-17.34.42:448][577]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (370)
+[2022.05.02-17.34.42:449][577]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (368)
+[2022.05.02-17.34.42:450][577]LogModuleManager: Shutting down and abandoning module MagicLeapController (366)
+[2022.05.02-17.34.42:450][577]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (364)
+[2022.05.02-17.34.42:450][577]LogModuleManager: Shutting down and abandoning module MagicLeapAR (362)
+[2022.05.02-17.34.42:451][577]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (360)
+[2022.05.02-17.34.42:451][577]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (358)
+[2022.05.02-17.34.42:451][577]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2022.05.02-17.34.42:454][577]LogModuleManager: Shutting down and abandoning module SignalProcessing (355)
+[2022.05.02-17.34.42:454][577]LogModuleManager: Shutting down and abandoning module NiagaraEditor (353)
+[2022.05.02-17.34.42:457][577]LogModuleManager: Shutting down and abandoning module NiagaraCore (350)
+[2022.05.02-17.34.42:457][577]LogModuleManager: Shutting down and abandoning module GameplayCameras (348)
+[2022.05.02-17.34.42:457][577]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (346)
+[2022.05.02-17.34.42:458][577]LogModuleManager: Shutting down and abandoning module FacialAnimation (344)
+[2022.05.02-17.34.42:458][577]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (342)
+[2022.05.02-17.34.42:458][577]LogModuleManager: Shutting down and abandoning module DataValidation (340)
+[2022.05.02-17.34.42:458][577]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (338)
+[2022.05.02-17.34.42:459][577]LogModuleManager: Shutting down and abandoning module LevelEditor (337)
+[2022.05.02-17.34.42:475][577]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (336)
+[2022.05.02-17.34.42:478][577]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (334)
+[2022.05.02-17.34.42:478][577]LogModuleManager: Shutting down and abandoning module MainFrame (332)
+[2022.05.02-17.34.42:479][577]LogModuleManager: Shutting down and abandoning module HotReload (331)
+[2022.05.02-17.34.42:481][577]LogModuleManager: Shutting down and abandoning module ToolMenus (327)
+[2022.05.02-17.34.42:481][577]LogModuleManager: Shutting down and abandoning module ContentBrowser (325)
+[2022.05.02-17.34.42:481][577]LogModuleManager: Shutting down and abandoning module ContentBrowserData (324)
+[2022.05.02-17.34.42:481][577]LogModuleManager: Shutting down and abandoning module TreeMap (321)
+[2022.05.02-17.34.42:482][577]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (318)
+[2022.05.02-17.34.42:482][577]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (316)
+[2022.05.02-17.34.42:483][577]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2022.05.02-17.34.42:483][577]LogModuleManager: Shutting down and abandoning module AnimationSharing (312)
+[2022.05.02-17.34.42:483][577]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.05.02-17.34.42:484][577]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.05.02-17.34.42:531][577]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.05.02-17.34.42:532][577]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.05.02-17.34.42:532][577]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.05.02-17.34.42:532][577]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.05.02-17.34.42:532][577]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.05.02-17.34.42:534][577]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.05.02-17.34.42:535][577]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.05.02-17.34.42:535][577]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.05.02-17.34.42:535][577]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.05.02-17.34.42:535][577]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.05.02-17.34.42:536][577]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.05.02-17.34.42:536][577]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.05.02-17.34.42:537][577]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.05.02-17.34.42:538][577]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.05.02-17.34.42:540][577]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.05.02-17.34.42:543][577]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.05.02-17.34.42:544][577]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.05.02-17.34.42:544][577]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.05.02-17.34.42:544][577]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.05.02-17.34.42:548][577]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.05.02-17.34.42:548][577]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.05.02-17.34.42:549][577]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.05.02-17.34.42:549][577]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.05.02-17.34.42:550][577]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.05.02-17.34.42:550][577]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.05.02-17.34.42:550][577]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.05.02-17.34.42:550][577]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.05.02-17.34.42:551][577]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.05.02-17.34.42:551][577]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.05.02-17.34.42:551][577]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.05.02-17.34.42:552][577]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.05.02-17.34.42:554][577]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.05.02-17.34.42:556][577]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.05.02-17.34.42:558][577]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.05.02-17.34.42:568][577]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.05.02-17.34.42:568][577]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.05.02-17.34.42:568][577]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.05.02-17.34.42:569][577]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.05.02-17.34.42:570][577]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.05.02-17.34.42:571][577]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.05.02-17.34.42:571][577]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.05.02-17.34.42:571][577]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.05.02-17.34.42:575][577]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.05.02-17.34.42:575][577]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.05.02-17.34.42:576][577]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.05.02-17.34.42:576][577]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.05.02-17.34.42:578][577]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.05.02-17.34.42:581][577]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.05.02-17.34.42:584][577]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.05.02-17.34.42:585][577]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.05.02-17.34.42:585][577]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.05.02-17.34.42:586][577]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.05.02-17.34.42:587][577]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.05.02-17.34.42:587][577]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.05.02-17.34.42:587][577]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.05.02-17.34.42:587][577]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.05.02-17.34.42:587][577]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.05.02-17.34.42:588][577]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.05.02-17.34.42:589][577]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.05.02-17.34.42:589][577]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.05.02-17.34.42:589][577]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.05.02-17.34.42:590][577]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.05.02-17.34.42:590][577]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.05.02-17.34.42:592][577]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.05.02-17.34.42:592][577]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.05.02-17.34.42:592][577]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.05.02-17.34.42:592][577]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.05.02-17.34.42:593][577]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.05.02-17.34.42:612][577]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.05.02-17.34.42:612][577]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.05.02-17.34.42:612][577]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.05.02-17.34.42:612][577]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.05.02-17.34.42:613][577]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.05.02-17.34.42:643][577]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.05.02-17.34.42:643][577]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.05.02-17.34.42:643][577]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.05.02-17.34.42:643][577]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.05.02-17.34.42:644][577]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.05.02-17.34.42:644][577]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.05.02-17.34.42:644][577]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.05.02-17.34.42:644][577]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.05.02-17.34.42:644][577]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.05.02-17.34.42:654][577]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.05.02-17.34.42:684][577]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.05.02-17.34.42:684][577]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.05.02-17.34.42:684][577]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.05.02-17.34.42:684][577]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.05.02-17.34.42:685][577]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.05.02-17.34.42:693][577]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.05.02-17.34.42:693][577]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.05.02-17.34.42:694][577]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.05.02-17.34.42:694][577]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.05.02-17.34.42:695][577]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.05.02-17.34.42:695][577]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.05.02-17.34.42:696][577]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.05.02-17.34.42:696][577]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.05.02-17.34.42:696][577]LogHMD: Freeing OpenVRDLLHandle.
+[2022.05.02-17.34.42:696][577]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.05.02-17.34.42:697][577]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (108)
+[2022.05.02-17.34.42:698][577]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.05.02-17.34.42:699][577]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (106)
+[2022.05.02-17.34.42:699][577]LogModuleManager: Shutting down and abandoning module OpenXRAR (104)
+[2022.05.02-17.34.42:699][577]LogModuleManager: Shutting down and abandoning module AugmentedReality (103)
+[2022.05.02-17.34.42:699][577]LogModuleManager: Shutting down and abandoning module OpenXRHMD (100)
+[2022.05.02-17.34.42:707][577]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (98)
+[2022.05.02-17.34.42:707][577]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.05.02-17.34.42:707][577]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.05.02-17.34.42:707][577]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.05.02-17.34.42:708][577]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.05.02-17.34.42:714][577]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.05.02-17.34.42:716][577]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.05.02-17.34.42:729][577]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.05.02-17.34.42:729][577]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.05.02-17.34.42:729][577]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF3FFCC8A-44CF-CAE5-A926-6F806BB889A5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=2e27c0f24d8e267af6a08e9157d151a2%7Ccad6d782c3574624855ec4b08c22a5de%7C49aa142c-5bbc-4f0c-b76a-cb910a14156e&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.05.02-17.34.42:729][577]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.05.02-17.34.42:742][577]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.05.02-17.34.42:758][577]LogModuleManager: Shutting down and abandoning module MLSDK (74)
+[2022.05.02-17.34.42:758][577]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.05.02-17.34.42:763][577]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.05.02-17.34.42:765][577]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.05.02-17.34.42:765][577]LogModuleManager: Shutting down and abandoning module MagicLeap (66)
+[2022.05.02-17.34.42:765][577]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2022.05.02-17.34.42:766][577]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (62)
+[2022.05.02-17.34.42:766][577]LogModuleManager: Shutting down and abandoning module NiagaraShader (60)
+[2022.05.02-17.34.42:767][577]LogModuleManager: Shutting down and abandoning module ChaosCloth (58)
+[2022.05.02-17.34.42:767][577]LogModuleManager: Shutting down and abandoning module VariantManagerContent (56)
+[2022.05.02-17.34.42:767][577]LogModuleManager: Shutting down and abandoning module DatasmithContent (54)
+[2022.05.02-17.34.42:768][577]LogModuleManager: Shutting down and abandoning module PixWinPlugin (52)
+[2022.05.02-17.34.42:768][577]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.05.02-17.34.42:768][577]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.05.02-17.34.42:769][577]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.05.02-17.34.42:769][577]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.05.02-17.34.42:769][577]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.05.02-17.34.42:770][577]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (40)
+[2022.05.02-17.34.42:771][577]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.05.02-17.34.42:772][577]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.05.02-17.34.42:773][577]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.05.02-17.34.42:774][577]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.05.02-17.34.42:778][577]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.05.02-17.34.42:782][577]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.05.02-17.34.42:784][577]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.05.02-17.34.42:784][577]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.05.02-17.34.42:784][577]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.05.02-17.34.42:793][577]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.05.02-17.34.42:793][577]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.05.02-17.34.42:794][577]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.05.02-17.34.42:794][577]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.05.02-17.34.42:794][577]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.05.02-17.34.42:794][577]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.05.02-17.34.42:795][577]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.05.02-17.34.42:795][577]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.05.02-17.34.42:795][577]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.05.02-17.34.42:797][577]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.05.02-17.34.42:799][577]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.05.02-17.34.42:846][577]LogD3D11RHI: Shutdown
+[2022.05.02-17.34.42:846][577]LogD3D11RHI: CleanupD3DDevice
+[2022.05.02-17.34.42:898][577]LogExit: Exiting.
+[2022.05.02-17.34.42:929][577]Log file closed, 05/02/22 19:34:42

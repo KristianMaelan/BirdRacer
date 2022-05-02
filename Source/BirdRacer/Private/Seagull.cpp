@@ -4,6 +4,11 @@
 #include "Seagull.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Blueprint/UserWidget.h"
+#include "Components/WidgetComponent.h"
+#include "GameFramework/PlayerController.h"
+#include "MainPlayerController.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 // Sets default values
 ASeagull::ASeagull()
@@ -37,7 +42,7 @@ ASeagull::ASeagull()
     SpringArm->bInheritRoll = false;
 
 
-
+    bESCPushed = false;
 }
 
 // Called when the game starts or when spawned
@@ -45,6 +50,8 @@ void ASeagull::BeginPlay()
 {
 	Super::BeginPlay();
 	
+    MainPlayerController = Cast<AMainPlayerController>(GetController());
+
 }
 
 // Called every frame
@@ -61,18 +68,57 @@ void ASeagull::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ASeagull::MoveForward);
     PlayerInputComponent->BindAxis(TEXT("MoveSideways"), this, &ASeagull::MoveSideways);
+
+    PlayerInputComponent->BindAction("LookBackwards", IE_Pressed, this, &ASeagull::LookBackwards);
+
+    PlayerInputComponent->BindAction("ESC", IE_Pressed, this, &ASeagull::ESCPushed);
+    PlayerInputComponent->BindAction("ESC", IE_Released, this, &ASeagull::ESCReleased);
+}
+
+bool ASeagull::AbleToMove(float value)
+{
+    if (MainPlayerController)
+    {
+        return (value != 0.0f) && (!MainPlayerController->bPauseMenuVisible);
+    }
+
+    return false;
 }
 
 void ASeagull::MoveForward(float value)
 {
-	FVector Direction = GetActorForwardVector();
-	AddMovementInput(Direction, value);
+    //if (AbleToMove(value))
+    {
+        FVector Direction = GetActorForwardVector();
+        AddMovementInput(Direction, value);
+    }
 }
 
 
 void ASeagull::MoveSideways(float value)
 {
-	AddActorLocalRotation(FRotator(0, value, 0));
+    //if (AbleToMove(value))
+    {
+        AddActorLocalRotation(FRotator(0, value, 0));
+    }
+}
 
+void ASeagull::LookBackwards()
+{
+    SpringArm->AddRelativeRotation(FRotator(0.f, 180.f, 0.f)); // Turns the SpringArm 180 degrees around to give the player a backwards view
+}
 
+void ASeagull::ESCPushed()
+{
+    bESCPushed = true;
+
+    if (MainPlayerController)
+    {
+        MainPlayerController->SwitchPauseMenu();
+    }
+}
+
+void ASeagull::ESCReleased()
+{
+    bESCPushed = false;
 }

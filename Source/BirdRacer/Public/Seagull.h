@@ -33,6 +33,16 @@ public:
 
 	void MoveSideways(float value);
 
+	// Called when pressed "left ctrl" to look backwards
+	void LookBackwards();
+
+	//HUD
+	bool bESCPushed;
+	void ESCPushed();
+	void ESCReleased();
+
+	bool AbleToMove(float value);
+
 
 public:
 	bool CheckPointsComplete = false;
@@ -46,6 +56,10 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class UCameraComponent* Camera;
+
+	//HUD
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
+		class AMainPlayerController* MainPlayerController;
 
 
 

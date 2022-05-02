@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Seagull.h"
 #include "FinishLine.h"
+#include "Seagull.h"
 
 AFinishLine::AFinishLine()
 {
