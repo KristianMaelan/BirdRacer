@@ -2,6 +2,10 @@
 
 #include "FinishLine.h"
 #include "Seagull.h"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 736699c20b85971f2db532728a5183939ae7e23f
 
 AFinishLine::AFinishLine()
 {
@@ -20,7 +24,8 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 
 		if (OtherActor == PlayerActor)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
+			GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You crossed the finish line!"));
+			//UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
 			ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
 			if (Player1->CheckPointsComplete)

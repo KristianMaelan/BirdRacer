@@ -3,6 +3,7 @@
 
 #include "Seagull.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/WidgetComponent.h"
@@ -87,12 +88,18 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
+<<<<<<< HEAD
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();
         AddMovementInput(Direction, value);
     }
 }
+=======
+    FVector Direction = GetActorForwardVector();
+    AddMovementInput(Direction, value);
+   }
+>>>>>>> 736699c20b85971f2db532728a5183939ae7e23f
 
 
 void ASeagull::MoveSideways(float value)

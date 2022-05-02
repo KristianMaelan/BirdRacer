@@ -7,20 +7,20 @@ void AAmmoPickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
 {
     Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
-    UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
+    GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You picked up ammo!"));
 
-    if (OtherActor)
-    {
+    //if (OtherActor)
+    //{
 
-        UE_LOG(LogTemp, Warning, TEXT("Ammo picked up!"));
-        //ASeagull* Player1 = Cast<ASeagull>(OtherActor);
+    //   // UE_LOG(LogTemp, Warning, TEXT("Ammo picked up!"));
+    //    //ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
-       /* if (Player1)
-        {
-            Player1->Ammo += AmmoAdditionCount
+    //   /* if (Player1)
+    //    {
+    //        Player1->Ammo += AmmoAdditionCount
 
-        }*/
-    }
+    //    }*/
+    //}
 
 }
 
@@ -28,5 +28,5 @@ void AAmmoPickup::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor*
 {
     Super::OnOverlapEnd(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
 
-    UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapEnd()"));
+    //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapEnd()"));
 }
