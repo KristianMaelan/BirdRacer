@@ -2,8 +2,8 @@
 
 #pragma once
 
-#include "Item.h"
 #include "CoreMinimal.h"
+#include "Item.h"
 #include "SpeedBoost.generated.h"
 
 /**
@@ -25,7 +25,7 @@ public:
 
 	//How much the speed increases, can be negative for bad pickups
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")
-		FVector SpeedBoostValue = FVector(500, 0, 0);
+		float SpeedBoostValue = 500.f;
 
 	//Time the boost is active for
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Pickup")

@@ -3,7 +3,6 @@
 
 #include "Seagull.h"
 #include "Camera/CameraComponent.h"
-#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/WidgetComponent.h"
@@ -88,7 +87,10 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 53147e2 (yeet)
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();

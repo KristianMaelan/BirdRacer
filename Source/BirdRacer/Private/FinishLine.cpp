@@ -20,8 +20,7 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 
 		if (OtherActor == PlayerActor)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You crossed the finish line!"));
-			//UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
+			UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
 			ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
 			if (Player1->CheckPointsComplete)

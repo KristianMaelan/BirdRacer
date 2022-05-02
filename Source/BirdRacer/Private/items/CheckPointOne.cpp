@@ -7,8 +7,8 @@ void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
 {
     Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
-    GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, TEXT("You crossed a checkpoint!"));
-    //UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
+
+    UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
     //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
 
     //if (OtherActor)
