@@ -5,26 +5,30 @@
 
 void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-    Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
+    //Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
 
     UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
     //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
 
-    //if (OtherActor)
-    //{
-    //   ASeagull* Player1 = Cast<ASeagull>(OtherActor);
+    if (OtherActor)
+    {
+        ASeagull* Player1 = Cast<ASeagull>(OtherActor);
+        if (Player1)
+        {
+            //Sets checkpoint as reached and adds it as the respawn location;
+            Player1->CheckPointReached[CheckPointNumber] = true;
+            Player1->RespawnLocation = GetActorLocation();
+            Player1->RespawnRotation = Player1->GetActorRotation();
 
-    //	if (Player1)
-    //    {
-    //        //ADD Array of Checkpoint bools to player character. 
-    //        Player1->CheckPoints[CheckPointNumber] = true;
+        	//Sets all checkpoints as reached for a lap to complete
 
-
-    //    }
-
-    //}
-
+        	if (CheckPointNumber == CheckPointsForLap)
+		    {
+                Player1->bCheckPointsComplete = true;
+		    }
+        }
+    }
 }
 
 void ACheckPointOne::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)

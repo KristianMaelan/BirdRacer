@@ -45,16 +45,33 @@ public:
 
 
 public:
-	bool CheckPointsComplete = false;
+	//Laps and checkpoints
+	//all checkpoints complete?
+	bool bCheckPointsComplete = false;
 
+	//Amount of laps completed. Gets increased by FinishLine, Checked by GameMode.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		int32 LapsCompleted = 0;
 
+	//Last checkpoint for respawn
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
+		FVector RespawnLocation;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
+		FRotator RespawnRotation;
+
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
 >>>>>>> parent of 53147e2 (yeet)
+=======
+	//Checkpoints reached bool
+	TArray<bool> CheckPointReached;
+
+
+	//Springarm and camera setup
+>>>>>>> Stashed changes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class USpringArmComponent* SpringArm;
 
@@ -65,6 +82,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 		class AMainPlayerController* MainPlayerController;
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
@@ -73,6 +91,9 @@ public:
 =======
 >>>>>>> parent of 53147e2 (yeet)
 
+=======
+	bool bGameCanPlay = true;
+>>>>>>> Stashed changes
 
 
 

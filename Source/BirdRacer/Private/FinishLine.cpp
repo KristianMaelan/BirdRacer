@@ -14,21 +14,23 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor && OtherActor != this)
 	{
+		if (OtherActor == Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn()))
+		{
+			
 		AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
-
-
-
 		if (OtherActor == PlayerActor)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
 			ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
-			if (Player1->CheckPointsComplete)
+			if (Player1->bCheckPointsComplete)
 			{
 				Player1->LapsCompleted += 1;
 			}
 		}
-		/*else if (OtherActor == ABirdNPC)
+		}
+		/*
+		else if (OtherActor == ABirdNPC)
 		{
 			ABirdNPC* NPC = Cast<ABirdNPC>(OtherActor);
 			if (NPC->CheckPointsComplete)

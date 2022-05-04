@@ -14,6 +14,7 @@ class BIRDRACER_API AMainPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
+<<<<<<< Updated upstream
 //
 //public:
 //
@@ -36,4 +37,27 @@ class BIRDRACER_API AMainPlayerController : public APlayerController
 //protected:
 //	virtual void BeginPlay() override; 
 //	
+=======
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<UUserWidget> WPauseMenu;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		UUserWidget* PauseMenu;
+
+	bool bPauseMenuVisible;
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "HUD") // BlueprintNativeEvent
+		void DisplayPauseMenu();
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "HUD") // BlueprintNativeEvent
+		void RemovePauseMenu();
+
+	void SwitchPauseMenu();
+
+protected:
+	virtual void BeginPlay() override; 
+	
+>>>>>>> Stashed changes
 };

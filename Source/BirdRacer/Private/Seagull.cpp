@@ -41,8 +41,11 @@ ASeagull::ASeagull()
     SpringArm->bInheritYaw = true;
     SpringArm->bInheritRoll = false;
 
-
+    //HUD
     bESCPushed = false;
+
+    //Checkpoints and laps
+    CheckPointReached.Init(false, 3);
 }
 
 // Called when the game starts or when spawned
@@ -87,24 +90,35 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
 >>>>>>> parent of 53147e2 (yeet)
+=======
+	if (bGameCanPlay)
+	{
+		
+>>>>>>> Stashed changes
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();
         AddMovementInput(Direction, value);
     }
+	}
 }
 
 
 void ASeagull::MoveSideways(float value)
 {
+	if (bGameCanPlay)
+	{
+		
     //if (AbleToMove(value))
     {
         AddActorLocalRotation(FRotator(0, value, 0));
     }
+	}
 }
 
 void ASeagull::LookBackwards()

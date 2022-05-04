@@ -33,4 +33,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		bool PlayerReached = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
+		int CheckPointsForLap = 2;
 };
