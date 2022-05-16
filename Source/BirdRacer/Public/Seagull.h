@@ -43,6 +43,9 @@ public:
 
 	bool AbleToMove(float value);
 
+	//Speed
+	//int MaxAcceleration = 
+
 
 public:
 	//Laps and checkpoints
@@ -76,13 +79,19 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 		class AMainPlayerController* MainPlayerController;
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		FVector SpeedBoostValue;
 
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 	bool bGameCanPlay = true;
 
 

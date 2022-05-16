@@ -9,6 +9,8 @@
 #include "GameFramework/PlayerController.h"
 #include "MainPlayerController.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ASeagull::ASeagull()
@@ -46,6 +48,11 @@ ASeagull::ASeagull()
 
     //Checkpoints and laps
     CheckPointReached.Init(false, 3);
+
+    //Speed, Acceleration and Deceleration
+    GetCharacterMovement()->MaxAcceleration = 5000.f;
+    GetCharacterMovement()->BrakingDecelerationFlying = 500.f;
+    GetCharacterMovement()->MaxFlySpeed = 2000.f;
 }
 
 // Called when the game starts or when spawned
@@ -54,6 +61,9 @@ void ASeagull::BeginPlay()
 	Super::BeginPlay();
 	
     MainPlayerController = Cast<AMainPlayerController>(GetController());
+
+    GetCharacterMovement()->MovementMode = MOVE_Flying;
+    
 
 }
 
@@ -90,15 +100,24 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
+<<<<<<< Updated upstream
 
 	if (bGameCanPlay)
 	{
 		
 
+=======
+	if (bGameCanPlay)
+	{
+		
+>>>>>>> Stashed changes
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();
         AddMovementInput(Direction, value);
+        
+        //AddActorLocalOffset
+
     }
 	}
 }
@@ -106,12 +125,14 @@ void ASeagull::MoveForward(float value)
 
 void ASeagull::MoveSideways(float value)
 {
+    float TurnSpeed = value * 2; //Multiply by wanted quantity
+
 	if (bGameCanPlay)
 	{
 		
     //if (AbleToMove(value))
     {
-        AddActorLocalRotation(FRotator(0, value, 0));
+        AddActorLocalRotation(FRotator(0, TurnSpeed, 0));
     }
 	}
 }
