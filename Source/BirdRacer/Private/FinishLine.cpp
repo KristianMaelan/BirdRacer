@@ -20,7 +20,7 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 		AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
 		if (OtherActor == PlayerActor)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
+			//UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
 			ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
 			if (Player1->bCheckPointsComplete)

@@ -60,18 +60,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		FRotator RespawnRotation;
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 53147e2 (yeet)
-=======
 	//Checkpoints reached bool
 	TArray<bool> CheckPointReached;
 
 
 	//Springarm and camera setup
->>>>>>> Stashed changes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class USpringArmComponent* SpringArm;
 
@@ -82,18 +76,15 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 		class AMainPlayerController* MainPlayerController;
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		FVector SpeedBoostValue;
 
-=======
->>>>>>> parent of 53147e2 (yeet)
 
-=======
+
+
 	bool bGameCanPlay = true;
->>>>>>> Stashed changes
+
 
 
 

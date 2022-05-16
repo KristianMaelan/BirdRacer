@@ -90,16 +90,11 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 53147e2 (yeet)
-=======
 	if (bGameCanPlay)
 	{
 		
->>>>>>> Stashed changes
+
     //if (AbleToMove(value))
     {
         FVector Direction = GetActorForwardVector();
