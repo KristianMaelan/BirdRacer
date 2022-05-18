@@ -37,10 +37,6 @@ class BIRDRACER_API AMainPlayerController : public APlayerController
 //protected:
 //	virtual void BeginPlay() override; 
 //	
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 public:
 

@@ -50,7 +50,7 @@ public:
 public:
 	//Laps and checkpoints
 	//all checkpoints complete?
-	bool bCheckPointsComplete = false;
+	bool bCheckPointsComplete = true;
 
 	//Amount of laps completed. Gets increased by FinishLine, Checked by GameMode.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
@@ -79,22 +79,15 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Controller")
 		class AMainPlayerController* MainPlayerController;
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		FVector SpeedBoostValue;
 
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 	bool bGameCanPlay = true;
 
+	void LevelCompleteLoad();
+	FTimerHandle FinishLineTimer;
 
-
-
+	void LoadMain();
 };

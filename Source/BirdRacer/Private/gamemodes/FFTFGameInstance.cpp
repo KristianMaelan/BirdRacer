@@ -3,3 +3,12 @@
 
 #include "gamemodes/FFTFGameInstance.h"
 
+void UFFTFGameInstance::UnlockAll()
+{
+	//Set all bools to true for unlocked!
+
+	//NPC Race mode
+	bNPCRaceUnlocked = true;
+
+
+}

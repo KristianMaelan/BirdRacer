@@ -11,6 +11,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ASeagull::ASeagull()
@@ -100,28 +101,19 @@ bool ASeagull::AbleToMove(float value)
 
 void ASeagull::MoveForward(float value)
 {
-<<<<<<< Updated upstream
+        if (bGameCanPlay)
+        {
 
-	if (bGameCanPlay)
-	{
-		
+            //if (AbleToMove(value))
+            {
+                FVector Direction = GetActorForwardVector();
+                AddMovementInput(Direction, value);
 
-=======
-	if (bGameCanPlay)
-	{
-		
->>>>>>> Stashed changes
-    //if (AbleToMove(value))
-    {
-        FVector Direction = GetActorForwardVector();
-        AddMovementInput(Direction, value);
-        
-        //AddActorLocalOffset
+                //AddActorLocalOffset
 
-    }
-	}
+            }
+        }
 }
-
 
 void ASeagull::MoveSideways(float value)
 {
@@ -155,4 +147,16 @@ void ASeagull::ESCPushed()
 void ASeagull::ESCReleased()
 {
     bESCPushed = false;
+}
+
+
+void ASeagull::LevelCompleteLoad()
+{
+
+    GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+}
+
+void ASeagull::LoadMain()
+{
+    UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
 }

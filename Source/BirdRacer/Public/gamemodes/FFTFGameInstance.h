@@ -19,8 +19,9 @@ public:
 		bool bNPCRaceUnlocked = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "instance")
-		float TimeAttackRecord = 10.f;
+		float TimeAttackRecord = 90.f;
 
-
+	UFUNCTION(BlueprintCallable, Category = "instance")
+		void UnlockAll();
 
 };

@@ -25,10 +25,16 @@ protected:
 public:
 	virtual void Tick(float DeltaSeconds) override;
 
+	class ASeagull* PlayerGamer = nullptr;
 
-	
+	UFUNCTION(BlueprintCallable, Category = "info")
+		void PlayerFinished();
 
+	UFUNCTION(BlueprintCallable, Category = "info")
+		void GoToMainMenu();
 
+	FTimerHandle FinishLineTimer;
 
 
 };
+	

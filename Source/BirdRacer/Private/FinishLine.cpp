@@ -2,6 +2,8 @@
 
 #include "FinishLine.h"
 #include "Seagull.h"
+#include "gamemodes/TimeAttackMode.h"
+#include "Kismet/GameplayStatics.h"
 
 AFinishLine::AFinishLine()
 {
@@ -14,10 +16,10 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor && OtherActor != this)
 	{
-		if (OtherActor == Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn()))
+		if (OtherActor == Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter()))
 		{
 			
-		AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
+		AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter());
 		if (OtherActor == PlayerActor)
 		{
 			//UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
@@ -25,8 +27,21 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 
 			if (Player1->bCheckPointsComplete)
 			{
+				UE_LOG(LogTemp, Warning, TEXT("Player has finished a lap!"));
+				Player1->RespawnLocation = GetActorLocation();
+				Player1->RespawnRotation = Player1->GetActorRotation();
+
+
 				Player1->LapsCompleted += 1;
 			}
+			if (Player1->LapsCompleted == 3)
+			{
+				//UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
+			//	ATimeAttackMode* GameMode = Cast<ATimeAttackMode>(GetWorld()->GetAuthGameMode());
+				Player1->LevelCompleteLoad();
+			}
+				
+			
 		}
 		}
 		/*
