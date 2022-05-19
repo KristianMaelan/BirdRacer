@@ -25,7 +25,7 @@ ASeagull::ASeagull()
     SpringArm->SetUsingAbsoluteRotation(false);
 
     SpringArm->SetRelativeRotation(FRotator(-30.f, 0.f, 0.f));
-    SpringArm->TargetArmLength = 1200.f;
+    SpringArm->TargetArmLength = 1200.f; //1200.f
     SpringArm->bEnableCameraLag = false;
     SpringArm->CameraLagSpeed = 5.f;
 
@@ -87,17 +87,19 @@ void ASeagull::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
     PlayerInputComponent->BindAction("ESC", IE_Pressed, this, &ASeagull::ESCPushed);
     PlayerInputComponent->BindAction("ESC", IE_Released, this, &ASeagull::ESCReleased);
+
+    PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ASeagull::Shoot);
 }
 
-bool ASeagull::AbleToMove(float value)
-{
-    /*if (MainPlayerController)
-    {
-        return (value != 0.0f) && (!MainPlayerController->bPauseMenuVisible);
-    }*/
-
-    return false;
-}
+//bool ASeagull::AbleToMove(float value)
+//{
+//    if (MainPlayerController)
+//    {
+//        return (value != 0.0f) && (!MainPlayerController->bPauseMenuVisible);
+//    }
+//
+//    return false;
+//}
 
 void ASeagull::MoveForward(float value)
 {
@@ -129,18 +131,55 @@ void ASeagull::MoveSideways(float value)
 	}
 }
 
+void ASeagull::Shoot() 
+{
+        UWorld* World = GetWorld();
+        if (World)
+        {
+            FVector Location = GetActorLocation();
+            
+            //The projectile will be spawned in on center of Mesh
+            World->SpawnActor<AActor>(ActorToSpawn, Location + FVector(0.f, 0.f, 0.f), GetActorRotation());
+            
+
+        }
+
+    UE_LOG(LogTemp, Warning, TEXT("Shooting"));
+}
+
 void ASeagull::LookBackwards()
 {
+    //int TimesPressed = 0;
+
     SpringArm->AddRelativeRotation(FRotator(0.f, 180.f, 0.f)); // Turns the SpringArm 180 degrees around to give the player a backwards view
+
+    //if (TimesPressed == 0)
+    //{
+    //    SpringArm->AddRelativeRotation(FRotator(0.f, 180.f, 0.f)); // Turns the SpringArm 180 degrees around to give the player a backwards view
+
+    //    TimesPressed = 1;
+    //}
+
+    //if (TimesPressed == 1)
+    //{
+    //    //Camera->AddRelativeLocation(FVector(200.f, 0.f, -50.f));
+    //    SpringArm->TargetArmLength = 500.f;
+    //    SpringArm->AddRelativeRotation(FRotator(30.f, 0.f, 0.f));
+
+    //    TimesPressed = 0;
+    //}
 }
 
 void ASeagull::ESCPushed()
 {
+    UE_LOG(LogTemp, Warning, TEXT("ESC Pushed"));
     bESCPushed = true;
 
     if (MainPlayerController)
     {
-      //  MainPlayerController->SwitchPauseMenu();
+        UE_LOG(LogTemp, Warning, TEXT("a"));
+        MainPlayerController->TogglePauseMenu();
+        UE_LOG(LogTemp, Warning, TEXT("b"));
     }
 }
 

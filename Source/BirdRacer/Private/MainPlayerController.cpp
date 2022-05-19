@@ -4,22 +4,90 @@
 #include "Blueprint/UserWidget.h"
 #include "Engine/World.h"
 
+AMainPlayerController::AMainPlayerController()
+{
+	bPauseMenuVisible = false;
+}
 
-//void AMainPlayerController::BeginPlay()
+void AMainPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	/*if (WPauseMenu)
+	{
+		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
+
+		if (PauseMenu)
+		{
+			PauseMenu->AddToViewport();
+			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}*/
+
+	if (WPauseMenu)
+	{
+		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
+		if (PauseMenu)
+		{
+			PauseMenu->AddToViewport();
+			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
+}
+
+void AMainPlayerController::DisplayPauseMenu_Implementation()
+{
+	/*if (PauseMenu)
+	{
+		bPauseMenuVisible = true;
+		PauseMenu->SetVisibility(ESlateVisibility::Visible);
+	}*/
+
+	bPauseMenuVisible = true;
+	bShowMouseCursor = true;
+
+	FInputModeGameAndUI InputModeGameAndUI;
+	SetInputMode(InputModeGameAndUI); 
+}
+
+void AMainPlayerController::RemovePauseMenu_Implementation()
+{
+	/*if (PauseMenu)
+	{
+		bPauseMenuVisible = false;
+		PauseMenu->SetVisibility(ESlateVisibility::Hidden);
+	}*/
+
+	bPauseMenuVisible = false;
+	bShowMouseCursor = false;
+
+	GameModeOnly();
+}
+
+void AMainPlayerController::TogglePauseMenu()
+{
+	if (!bPauseMenuVisible)
+	{
+		DisplayPauseMenu();
+	}
+
+	else
+	{
+		RemovePauseMenu(); 
+	}
+}
+
+void AMainPlayerController::GameModeOnly()
+{
+	FInputModeGameOnly InputModeGameOnly;
+	SetInputMode(InputModeGameOnly);
+}
+
+//void AMainPlayerController::DisplayPauseMenu()
 //{
-//	if (WPauseMenu)
-//	{
-//		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
 //
-//		if (PauseMenu)
-//		{
-//			PauseMenu->AddToViewport();
-//			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
-//		}
-//	}
 //}
-//
-//
+
 //void AMainPlayerController::DisplayPauseMenu_Implementation() 
 //{
 //	if (PauseMenu)
@@ -33,6 +101,11 @@
 //		bShowMouseCursor = true;
 //	}
 //}
+//
+////void AMainPlayerController::RemovePauseMenu()
+////{
+////
+////}
 //
 //void AMainPlayerController::RemovePauseMenu_Implementation() 
 //{

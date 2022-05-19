@@ -29,8 +29,8 @@ public:
 
 public:
 
+	//Movement
 	void MoveForward(float value);
-
 	void MoveSideways(float value);
 
 	// Called when pressed "left ctrl" to look backwards
@@ -41,7 +41,10 @@ public:
 	void ESCPushed();
 	void ESCReleased();
 
-	bool AbleToMove(float value);
+	//Shooting
+	void Shoot();
+
+	//bool AbleToMove(float value);
 
 	//Speed
 	//int MaxAcceleration = 
@@ -71,7 +74,6 @@ public:
 	//Springarm and camera setup
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class USpringArmComponent* SpringArm;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SeagullMesh")
 		class UCameraComponent* Camera;
 
@@ -83,6 +85,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		FVector SpeedBoostValue;
 
+	//Ammo
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharGhostMesh")
+		int Ammo = 10;
+
+	//Projectile
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
+		TSubclassOf<AActor> ActorToSpawn;
+
 
 	bool bGameCanPlay = true;
 
@@ -90,4 +100,7 @@ public:
 	FTimerHandle FinishLineTimer;
 
 	void LoadMain();
+
+	//Times pressed ctrl for change of camera angle
+	//int TimesPressed = 0;
 };
