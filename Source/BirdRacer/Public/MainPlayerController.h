@@ -45,7 +45,7 @@ public:
 		UUserWidget* PauseMenu;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-		TSubclassOf<class UUserWidget> WHUDOverlay;
+		TSubclassOf<class UUserWidget> HUDOverlayAsset;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 		UUserWidget* HUDOverlay; 

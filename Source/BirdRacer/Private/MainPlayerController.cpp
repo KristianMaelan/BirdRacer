@@ -23,15 +23,17 @@ void AMainPlayerController::BeginPlay()
 		}
 	}
 
-	if (WHUDOverlay)
+	if (HUDOverlayAsset)
 	{
-		HUDOverlay = CreateWidget<UUserWidget>(this, WHUDOverlay);
-		if (HUDOverlay)
+		HUDOverlay = CreateWidget<UUserWidget>(this, HUDOverlayAsset);
+		/*if (HUDOverlay)
 		{
 			HUDOverlay->AddToViewport();
 			HUDOverlay->SetVisibility(ESlateVisibility::Visible);
-		}
+		}*/
 	}
+	HUDOverlay->AddToViewport();
+	//HUDOverlay->SetVisibility(ESlateVisibility::Visible);
 }
 
 void AMainPlayerController::DisplayPauseMenu_Implementation()

@@ -109,4 +109,6 @@ public:
 
 	//Times pressed ctrl for change of camera angle
 	//int TimesPressed = 0;
+
+	//int Timer; 
 };

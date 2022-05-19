@@ -73,6 +73,8 @@ void ASeagull::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+   //int Timer =+ GetWorld()->GetDeltaSeconds(); 
+
 }
 
 // Called to bind functionality to input
@@ -203,6 +205,13 @@ void ASeagull::LapComplete()
     CheckPointReached[2] = false;
     CheckPointReached[3] = false;
 	//UE_LOG(LogTemp, Warning, TEXT("CheckPoints Reset"));
+    //GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Lap time: "), Timer); 
+    //FString PrintTime = FString::Printf(TEXT("Lap time: %d"), (Timer.ToString()));
+
+   /* if (GEngine)
+    {
+        GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, PrintTime);
+    }*/
 }
 
 
