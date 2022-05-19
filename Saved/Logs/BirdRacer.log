@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 05/19/22 23:02:06
+=======
+﻿Log file open, 05/19/22 20:47:32
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 05/19/22 20:47:32
 >>>>>>> Stashed changes
@@ -20,7 +24,11 @@ LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogStats: Stats thread started at 0.264859
+=======
+LogStats: Stats thread started at 0.297233
+>>>>>>> Stashed changes
 =======
 LogStats: Stats thread started at 0.297233
 >>>>>>> Stashed changes
@@ -41,9 +49,12 @@ LogPluginManager: Mounting plugin GameplayCameras
 LogPluginManager: Mounting plugin AnimationSharing
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
@@ -66,6 +77,9 @@ LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
 LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -73,6 +87,7 @@ LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin GitSourceControl
 LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin CryptoKeys
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin NullSourceCodeAccess
@@ -142,6 +157,21 @@ LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin BackChannel
 LogPluginManager: Mounting plugin ChaosCloth
 >>>>>>> Stashed changes
+=======
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin ChaosClothEditor
 LogPluginManager: Mounting plugin ChaosEditor
 LogPluginManager: Mounting plugin ChaosNiagara
@@ -149,8 +179,11 @@ LogPluginManager: Mounting plugin ChaosSolverPlugin
 LogPluginManager: Mounting plugin CharacterAI
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin ChaosCloth
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin Niagara
@@ -162,6 +195,9 @@ LogPluginManager: Mounting plugin MagicLeapPassableWorld
 LogPluginManager: Mounting plugin MLSDK
 LogPluginManager: Mounting plugin DatasmithContent
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -175,8 +211,11 @@ LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin GeometryProcessing
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin TcpMessaging
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin MotoSynth
@@ -185,6 +224,7 @@ LogPluginManager: Mounting plugin OpenImageDenoise
 LogPluginManager: Mounting plugin MotoSynth
 LogPluginManager: Mounting plugin PlanarCut
 LogPluginManager: Mounting plugin PlatformCrypto
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin ProxyLODPlugin
@@ -200,6 +240,8 @@ LogPluginManager: Mounting plugin ImgMedia
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin LauncherChunkInstaller
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin PlanarCut
@@ -222,6 +264,9 @@ LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin TemplateSequence
 LogPluginManager: Mounting plugin OnlineSubsystem
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -236,6 +281,9 @@ LogPluginManager: Mounting plugin AndroidPermission
 =======
 LogPluginManager: Mounting plugin AppleImageUtils
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -244,6 +292,7 @@ LogPluginManager: Mounting plugin AppleImageUtils
 LogPluginManager: Mounting plugin AssetTags
 LogPluginManager: Mounting plugin AudioCapture
 LogPluginManager: Mounting plugin ArchVisCharacter
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin AudioSynesthesia
@@ -267,6 +316,27 @@ LogPluginManager: Mounting plugin PostSplashScreen
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin PropertyAccessEditor
 LogPluginManager: Mounting plugin RuntimePhysXCooking
+=======
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin CableComponent
 LogPluginManager: Mounting plugin AudioSynesthesia
@@ -315,6 +385,7 @@ LogPluginManager: Mounting plugin SoundFields
 LogPluginManager: Mounting plugin Synthesis
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 >>>>>>> Stashed changes
@@ -325,6 +396,12 @@ LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 =======
+>>>>>>> Stashed changes
+=======
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin WindowsMoviePlayer
 >>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin ProceduralMeshComponent
@@ -425,6 +502,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2022.05.19-21.02.07:244][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -1111,6 +1189,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.19-21.07.57:443][793]LogTemp: Repeating last play command: Standalone Game
 [2022.05.19-21.07.57:453][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 [2022.05.19-18.47.32:742][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -1959,6 +2039,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.19-21.09.39:253][187]LogCore: Engine exit requested (reason: Win RequestExit)
 [2022.05.19-21.09.39:260][187]Log file closed, 05/19/22 23:09:39
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
