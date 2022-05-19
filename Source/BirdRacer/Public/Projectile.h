@@ -53,8 +53,8 @@ private:
 		float TimeLived = 0.f;
 
 	//ON overlap function, not sure if needed, comment in and add function if needed.
-	/*UFUNCTION()
-		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherbodyIndex, bool bFromSweep, const FHitResult& SweepResult);*/
+	UFUNCTION()
+		void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherbodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 
 };
