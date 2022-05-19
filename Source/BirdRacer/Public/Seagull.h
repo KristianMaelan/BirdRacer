@@ -82,11 +82,15 @@ public:
 		class AMainPlayerController* MainPlayerController;
 
 
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		FVector SpeedBoostValue;*/
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
-		FVector SpeedBoostValue;
+		int32 Boost;
+	void IncrementBoost(int32 Amount);
+
 
 	//Ammo
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CharGhostMesh")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
 		int Ammo = 10;
 
 	//Projectile
@@ -95,6 +99,8 @@ public:
 
 
 	bool bGameCanPlay = true;
+
+	void LapComplete();
 
 	void LevelCompleteLoad();
 	FTimerHandle FinishLineTimer;

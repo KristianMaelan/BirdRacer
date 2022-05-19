@@ -44,6 +44,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 		UUserWidget* PauseMenu;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<class UUserWidget> WHUDOverlay;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		UUserWidget* HUDOverlay; 
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
 	bool bPauseMenuVisible;
 
@@ -55,6 +61,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void TogglePauseMenu();
+
+	UFUNCTION(BlueprintCallable)
+	void CallHUDOverlay();
 
 	void GameModeOnly();
 

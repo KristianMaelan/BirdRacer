@@ -2,6 +2,12 @@
 
 
 #include "items/SpeedBoost.h"
+#include "Seagull.h"
+
+ASpeedBoost::ASpeedBoost()
+{
+    BoostCount = 1;
+}
 
 void ASpeedBoost::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
@@ -11,14 +17,16 @@ void ASpeedBoost::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
 
     if (OtherActor)
     {
-       //ASeagull* Player1 = Cast<ASeagull>(OtherActor);
+       ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
-      /* if (Player1)
+       if (Player1)
        {
-           Player1->SpeedBoostTime = SpeedBoostTime;
-           Player1->SpeedBoostValue = SpeedBoostValue;
+           
+           Player1->IncrementBoost(BoostCount); 
 
-       }*/
+           //Adding multiplier for boost after pickup
+
+       }
     }
 
 }

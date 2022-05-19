@@ -170,6 +170,13 @@ void ASeagull::LookBackwards()
     //}
 }
 
+void ASeagull::IncrementBoost(int32 Amount)
+{
+    Boost += Amount; 
+
+    //Speed = Speed * Amount; eller Speed = Speed * (0.5 * Amount) elns
+}
+
 void ASeagull::ESCPushed()
 {
     UE_LOG(LogTemp, Warning, TEXT("ESC Pushed"));

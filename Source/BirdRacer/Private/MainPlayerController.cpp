@@ -13,17 +13,6 @@ void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	/*if (WPauseMenu)
-	{
-		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
-
-		if (PauseMenu)
-		{
-			PauseMenu->AddToViewport();
-			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
-		}
-	}*/
-
 	if (WPauseMenu)
 	{
 		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
@@ -33,30 +22,40 @@ void AMainPlayerController::BeginPlay()
 			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+
+	if (WHUDOverlay)
+	{
+		HUDOverlay = CreateWidget<UUserWidget>(this, WHUDOverlay);
+		if (HUDOverlay)
+		{
+			HUDOverlay->AddToViewport();
+			HUDOverlay->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
 }
 
 void AMainPlayerController::DisplayPauseMenu_Implementation()
 {
-	/*if (PauseMenu)
+	if (PauseMenu)
 	{
 		bPauseMenuVisible = true;
 		PauseMenu->SetVisibility(ESlateVisibility::Visible);
-	}*/
+	}
 
 	bPauseMenuVisible = true;
 	bShowMouseCursor = true;
 
-	FInputModeGameAndUI InputModeGameAndUI;
-	SetInputMode(InputModeGameAndUI); 
+	FInputModeUIOnly InputModeUIOnly; 
+	SetInputMode(InputModeUIOnly);
 }
 
 void AMainPlayerController::RemovePauseMenu_Implementation()
 {
-	/*if (PauseMenu)
+	if (PauseMenu)
 	{
 		bPauseMenuVisible = false;
 		PauseMenu->SetVisibility(ESlateVisibility::Hidden);
-	}*/
+	}
 
 	bPauseMenuVisible = false;
 	bShowMouseCursor = false;
@@ -83,54 +82,9 @@ void AMainPlayerController::GameModeOnly()
 	SetInputMode(InputModeGameOnly);
 }
 
-//void AMainPlayerController::DisplayPauseMenu()
-//{
-//
-//}
+void AMainPlayerController::CallHUDOverlay()
+{
+	//Trenge eg egt denna?
+}
 
-//void AMainPlayerController::DisplayPauseMenu_Implementation() 
-//{
-//	if (PauseMenu)
-//	{
-//		bPauseMenuVisible = true;
-//		PauseMenu->SetVisibility(ESlateVisibility::Visible);
-//
-//		FInputModeGameAndUI InputModeGameAndUI;
-//
-//		SetInputMode(InputModeGameAndUI);
-//		bShowMouseCursor = true;
-//	}
-//}
-//
-////void AMainPlayerController::RemovePauseMenu()
-////{
-////
-////}
-//
-//void AMainPlayerController::RemovePauseMenu_Implementation() 
-//{
-//	if (PauseMenu)
-//	{
-//		FInputModeGameOnly InputModeGameOnly;
-//
-//		SetInputMode(InputModeGameOnly);
-//		bShowMouseCursor = false;
-//
-//		bPauseMenuVisible = false;
-//		//PauseMenu->SetVisibility(ESlateVisibility::Hidden);
-//	}
-//}
-//
-//void AMainPlayerController::SwitchPauseMenu()
-//{
-//	if (bPauseMenuVisible)
-//	{
-//		RemovePauseMenu();
-//	}
-//
-//	else
-//	{
-//		DisplayPauseMenu();
-//	}
-//}
 
