@@ -96,6 +96,8 @@ public:
 
 	bool bGameCanPlay = true;
 
+	void LapComplete();
+
 	void LevelCompleteLoad();
 	FTimerHandle FinishLineTimer;
 

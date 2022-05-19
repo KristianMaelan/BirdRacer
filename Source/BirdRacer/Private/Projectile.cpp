@@ -14,7 +14,7 @@ AProjectile::AProjectile()
 
 	//Setting up root component
 	RootComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
-	//
+	
 	BulletMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Bullet Mesh"));
 	SetRootComponent(BulletMesh);
 }
@@ -23,7 +23,11 @@ AProjectile::AProjectile()
 void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter());
+	FRotator ShotAngle = PlayerActor->GetActorRotation();
+	InitialBulletDirection = ShotAngle.Vector();
+
 	//Overlap function, add if needed
 	//BulletMesh->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::OnOverlap);
 }
@@ -46,3 +50,7 @@ void AProjectile::Tick(float DeltaTime)
 	}
 }
 
+void AProjectile::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherbodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+
+}
