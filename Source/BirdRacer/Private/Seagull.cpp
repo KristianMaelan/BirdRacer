@@ -48,7 +48,7 @@ ASeagull::ASeagull()
     bESCPushed = false;
 
     //Checkpoints and laps
-    CheckPointReached.Init(false, 3);
+    CheckPointReached.Init(false, 4);
 
     //Speed, Acceleration and Deceleration
     GetCharacterMovement()->MaxAcceleration = 5000.f;
@@ -188,10 +188,20 @@ void ASeagull::ESCReleased()
     bESCPushed = false;
 }
 
+void ASeagull::LapComplete()
+{
+    bCheckPointsComplete = false;
+    CheckPointReached[0] = false;
+    CheckPointReached[1] = false;
+    CheckPointReached[2] = false;
+    CheckPointReached[3] = false;
+	//UE_LOG(LogTemp, Warning, TEXT("CheckPoints Reset"));
+}
+
+
 
 void ASeagull::LevelCompleteLoad()
 {
-
     GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
 }
 

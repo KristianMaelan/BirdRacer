@@ -30,14 +30,15 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 				UE_LOG(LogTemp, Warning, TEXT("Player has finished a lap!"));
 				Player1->RespawnLocation = GetActorLocation();
 				Player1->RespawnRotation = Player1->GetActorRotation();
+				Player1->LapComplete();
 
 
 				Player1->LapsCompleted += 1;
 			}
 			if (Player1->LapsCompleted == 3)
 			{
-				//UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
-			//	ATimeAttackMode* GameMode = Cast<ATimeAttackMode>(GetWorld()->GetAuthGameMode());
+				//JOAKIM, PLZ FIX HUD
+				//Loads main menu after the race is complete
 				Player1->LevelCompleteLoad();
 			}
 				
@@ -45,6 +46,7 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 		}
 		}
 		/*
+		 //Not sure if this is needed yet
 		else if (OtherActor == ABirdNPC)
 		{
 			ABirdNPC* NPC = Cast<ABirdNPC>(OtherActor);
