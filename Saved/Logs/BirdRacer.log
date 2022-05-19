@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 05/19/22 23:17:44
+=======
+﻿Log file open, 05/19/22 20:47:32
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 05/19/22 20:47:32
 >>>>>>> Stashed changes
@@ -15,7 +19,11 @@ LogInit: Display: Running engine for game: BirdRacer
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogStats: Stats thread started at 0.344929
+=======
+LogStats: Stats thread started at 0.297233
+>>>>>>> Stashed changes
 =======
 LogStats: Stats thread started at 0.297233
 >>>>>>> Stashed changes
@@ -35,6 +43,7 @@ LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin NullSourceCodeAccess
 LogPluginManager: Mounting plugin PerforceSourceControl
@@ -70,6 +79,8 @@ LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin MLSDK
 LogPluginManager: Mounting plugin TcpMessaging
 =======
+=======
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin NullSourceCodeAccess
 LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin PerforceSourceControl
@@ -135,13 +146,19 @@ LogPluginManager: Mounting plugin WmfMedia
 LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin ActorSequence
 LogPluginManager: Mounting plugin MatineeToLevelSequence
 LogPluginManager: Mounting plugin LevelSequenceEditor
 LogPluginManager: Mounting plugin TemplateSequence
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin LauncherChunkInstaller
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin OnlineSubsystem
@@ -157,7 +174,11 @@ LogPluginManager: Mounting plugin ArchVisCharacter
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AudioCapture
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin AudioSynesthesia
+=======
+LogPluginManager: Mounting plugin ArchVisCharacter
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin ArchVisCharacter
 >>>>>>> Stashed changes
@@ -166,6 +187,7 @@ LogPluginManager: Mounting plugin AudioSynesthesia
 LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin CustomMeshComponent
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ScreenshotTools
@@ -173,6 +195,13 @@ LogPluginManager: Mounting plugin GoogleCloudMessaging
 LogPluginManager: Mounting plugin GooglePAD
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+=======
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
@@ -190,9 +219,13 @@ LogPluginManager: Mounting plugin OpenXRHandTracking
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin PostSplashScreen
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin PropertyAccessEditor
 LogPluginManager: Mounting plugin RuntimePhysXCooking
+=======
+LogPluginManager: Mounting plugin PropertyAccessEditor
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin PropertyAccessEditor
 >>>>>>> Stashed changes
@@ -204,6 +237,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin Takes
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin AutomationUtils
@@ -241,14 +275,22 @@ LogPluginManager: Mounting plugin ContentBrowserFileDataSource
 LogPluginManager: Mounting plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 >>>>>>> Stashed changes
+=======
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting plugin OnlineSubsystemIOS
 LogPluginManager: Mounting plugin OculusVR
 LogPluginManager: Mounting plugin SteamVR
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 LogPluginManager: Mounting plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
@@ -337,6 +379,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2022.05.19-21.17.45:313][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2022.05.19-21.17.45:313][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -1529,6 +1572,8 @@ Make sure 'Seagull' has been compiled for  Get Boost
 [2022.05.19-21.18.41:887][931]LogExit: Exiting.
 [2022.05.19-21.18.41:900][931]Log file closed, 05/19/22 23:18:41
 =======
+=======
+>>>>>>> Stashed changes
 [2022.05.19-18.47.32:742][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2022.05.19-18.47.32:742][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2022.05.19-18.47.32:743][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/Saved/Config/Windows/Engine.ini]
@@ -2374,4 +2419,7 @@ Make sure 'Seagull' has been compiled for  Get Boost
 [2022.05.19-21.09.39:253][187]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
 [2022.05.19-21.09.39:253][187]LogCore: Engine exit requested (reason: Win RequestExit)
 [2022.05.19-21.09.39:260][187]Log file closed, 05/19/22 23:09:39
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
