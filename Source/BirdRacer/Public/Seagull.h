@@ -90,4 +90,14 @@ public:
 	FTimerHandle FinishLineTimer;
 
 	void LoadMain();
+
+	UFUNCTION(BlueprintCallable)
+		void LapComplete();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Laptime")
+		float FastestLap{};
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Laptime")
+		float FullTime{};
+
 };

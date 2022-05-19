@@ -21,7 +21,7 @@ void AFallOffTrigger::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor
 			AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter());
 			if (OtherActor == PlayerActor)
 			{
-				//UE_LOG(LogTemp, Warning, TEXT("FINISH LINE PASSED"));
+				//UE_LOG(LogTemp, Warning, TEXT("Player has fallen off the map! Respawning at Last checkpoint!"));
 				ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
 				Player1->SetActorLocation(Player1->RespawnLocation);
