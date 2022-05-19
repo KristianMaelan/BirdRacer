@@ -105,6 +105,9 @@ public:
 	void LevelCompleteLoad();
 	FTimerHandle FinishLineTimer;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gamemode")
+		int ActiveGameMode = 0;
+
 	void LoadMain();
 
 	//Times pressed ctrl for change of camera angle

@@ -14,8 +14,8 @@ ATimeAttackMode::ATimeAttackMode()
 
 void ATimeAttackMode::BeginPlay()
 {
-	 //PlayerGamer = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
-
+	 PlayerGamer = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
+	 PlayerGamer->ActiveGameMode = 0;
 
 }
 

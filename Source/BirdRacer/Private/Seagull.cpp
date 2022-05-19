@@ -197,6 +197,7 @@ void ASeagull::ESCReleased()
     bESCPushed = false;
 }
 
+//Resets all checkpoints and sets them as incomplete
 void ASeagull::LapComplete()
 {
     bCheckPointsComplete = false;
@@ -218,9 +219,23 @@ void ASeagull::LapComplete()
 
 void ASeagull::LevelCompleteLoad()
 {
+    //0 = Time attack, 1 NPCRace
+	if (ActiveGameMode == 0)
+	{
+        
+        UE_LOG(LogTemp, Warning, TEXT("Time Attack Mode completed!"));
     GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+	}
+    else if (ActiveGameMode == 1)
+	{
+
+        UE_LOG(LogTemp, Warning, TEXT("NPCRace Gamemode completed!"));
+        GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+	}
+
 }
 
+//Loads main menu, done in seagull because GetWorld Requires object, and it fit in here nicely with the other functions.
 void ASeagull::LoadMain()
 {
     UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));

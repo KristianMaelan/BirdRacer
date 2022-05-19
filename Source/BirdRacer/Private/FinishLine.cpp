@@ -27,7 +27,7 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 
 			if (Player1->bCheckPointsComplete)
 			{
-				UE_LOG(LogTemp, Warning, TEXT("Player has finished a lap!"));
+				//UE_LOG(LogTemp, Warning, TEXT("Player has finished a lap!"));
 				Player1->RespawnLocation = GetActorLocation();
 				Player1->RespawnRotation = Player1->GetActorRotation();
 				Player1->LapComplete();

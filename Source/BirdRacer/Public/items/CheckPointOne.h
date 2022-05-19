@@ -29,7 +29,7 @@ public:
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
-		int CheckPointNumber{};
+		int CheckPointNumber = 1;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		bool PlayerReached = false;
