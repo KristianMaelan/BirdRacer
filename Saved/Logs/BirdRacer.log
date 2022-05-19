@@ -1662,3 +1662,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.19-12.53.39:732][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2022.05.19-12.53.39:744][244]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
 [2022.05.19-12.53.39:744][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.19-12.54.20:496][694]Candidate modules for hot reload:
+[2022.05.19-12.54.20:496][694]  BirdRacer
+[2022.05.19-12.54.20:496][694]Launching UnrealBuildTool... [C:/Program Files (x86)/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BirdRacer,9902 BirdRacerEditor Win64 Development -Project="C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject" "C:/Users/krist/OneDrive/Skrivebord/Bird Racer/BirdRacer/BirdRacer.uproject"  -IgnoreJunk]
+[2022.05.19-12.54.20:498][694]Warning: Starting HotReload took  0.0s.
+[2022.05.19-12.54.27:832][127]CompilerResultsLog: New page: Compilation - 19. mai 2022, 16:54:27
+[2022.05.19-12.54.27:832][127]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer).
+[2022.05.19-12.54.27:832][127]CompilerResultsLog: Parsing headers for BirdRacerEditor
+[2022.05.19-12.54.27:832][127]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\BirdRacer.uproject" "C:\Users\krist\OneDrive\Skrivebord\Bird Racer\BirdRacer\Intermediate\Build\Win64\BirdRacerEditor\Development\BirdRacerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\krist\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: Reflection code generated for BirdRacerEditor in 4,414184 seconds
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: Building BirdRacerEditor...
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: Using Visual Studio 2022 14.30.30709 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   [1/8] BirdRacer.init.gen.cpp
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: the system returned code 1455: Sidevekslingsfilen er for liten til at operasjonen kan fullf?res.
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   [2/8] NPCController.cpp
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: the system returned code 1455: Sidevekslingsfilen er for liten til at operasjonen kan fullf?res.
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   [3/8] CheckPointOne.gen.cpp
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: the system returned code 1455: Sidevekslingsfilen er for liten til at operasjonen kan fullf?res.
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog: 
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   [4/8] CheckPointOne.cpp
+[2022.05.19-12.54.27:833][127]CompilerResultsLog:   [5/8] NPCController.gen.cpp
+[2022.05.19-12.54.27:833][127]LogMainFrame: MainFrame: Module compiling took 7.342 seconds
+[2022.05.19-12.54.27:848][127]Warning: HotReload failed, recompile failed
+[2022.05.19-12.54.34:506][501]LogSlate: Window 'Message Log' being destroyed
+[2022.05.19-12.54.34:531][501]LogSlate: Window 'Message Log' being destroyed

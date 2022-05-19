@@ -8,8 +8,8 @@ void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
     //Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
 
-    UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
-    //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
+    //UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
+    
 
     if (OtherActor)
     {
@@ -36,4 +36,9 @@ void ACheckPointOne::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
     //Super::OnOverlapEnd(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
 
     //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapEnd()"));
+}
+
+void ACheckPointOne::LocationForNPC()
+{
+	
 }
