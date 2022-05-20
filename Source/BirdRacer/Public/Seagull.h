@@ -108,6 +108,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gamemode")
 		int ActiveGameMode = 0;
 
+	FVector CP1Location{};
+	FVector CP2Location{};
+	FVector CP3Location{};
+
 	void LoadMain();
 
 	//Times pressed ctrl for change of camera angle

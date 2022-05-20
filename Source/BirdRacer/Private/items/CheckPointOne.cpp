@@ -5,6 +5,13 @@
 #include "GameFramework/GameModeBase.h"
 #include "gamemodes/NPCRaceGameMode.h"
 
+void ACheckPointOne::BeginPlay()
+{
+	Super::BeginPlay();
+
+    ACheckPointOne::LocationForNPC();
+}
+
 void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
     //Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
@@ -42,7 +49,9 @@ void ACheckPointOne::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AAct
 
 void ACheckPointOne::LocationForNPC()
 {
-    
+
+    UE_LOG(LogTemp, Warning, TEXT("CheckPoints Location for NPC run"));
+
     if (CheckPointNumber == 1)
     {
         ANPCRaceGameMode* NPCMode = Cast<ANPCRaceGameMode>(GetWorld()->GetAuthGameMode());

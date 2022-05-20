@@ -19,19 +19,19 @@ protected:
 
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
-		FVector CheckPoint1Location{};
+		FVector CheckPoint1Location = FVector(0, 0, 0);
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
-		FVector CheckPoint2Location{};
+		FVector CheckPoint2Location = FVector(0, 0, 0);
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
-		FVector CheckPoint3Location{};
+		FVector CheckPoint3Location = FVector(0, 0, 0);
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
 		float EnemiesKilled = 0;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
-		float EnemiesToKill = 25;
+		float EnemiesToKill = 15;
 
 
 

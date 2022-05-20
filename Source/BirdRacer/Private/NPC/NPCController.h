@@ -42,6 +42,16 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
 	FVector CPoint3{};
 
+	bool bUpdateNow = true;
+
 	UFUNCTION(BlueprintCallable)
 		void GetCheckpoints();
+
+	UFUNCTION(BlueprintCallable)
+		void NextLocationUpdate();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
+		int LastCheckPoint = 1;
+
+
 };
