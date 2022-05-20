@@ -216,15 +216,18 @@ void ASeagull::LapComplete()
     if (LapsCompleted == 1)
     {
         LapTime1 = GameTime;
+        UE_LOG(LogTemp, Warning, TEXT("Lap 1 Complete!"));
     }
     else if (LapsCompleted == 2)
     {
         LapTime2 = GameTime - LapTime1;
+        UE_LOG(LogTemp, Warning, TEXT("Lap 2 Complete!"));
     }
     else if (LapsCompleted == 3)
     {
         TotalTime = GameTime;
         LapTime3 = GameTime - (LapTime2 + LapTime1);
+        UE_LOG(LogTemp, Warning, TEXT("Lap 3 Complete!"));
     }
 }
 

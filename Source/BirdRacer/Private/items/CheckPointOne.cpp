@@ -20,7 +20,7 @@ void ACheckPointOne::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AA
     //Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
 
-    //UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
+    UE_LOG(LogTemp, Warning, TEXT("Check point passed"));
     
 
     if (OtherActor)

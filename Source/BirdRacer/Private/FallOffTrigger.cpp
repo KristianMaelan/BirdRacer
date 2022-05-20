@@ -35,5 +35,3 @@ void AFallOffTrigger::OnOverlapEnd(AActor* OverlappedActor, AActor* OtherActor)
 {
 
 }
-
-

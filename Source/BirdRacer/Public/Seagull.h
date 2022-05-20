@@ -53,7 +53,7 @@ public:
 public:
 	//Laps and checkpoints
 	//all checkpoints complete?
-	bool bCheckPointsComplete = true;
+	bool bCheckPointsComplete = false;
 
 	//Amount of laps completed. Gets increased by FinishLine, Checked by GameMode.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")

@@ -8,7 +8,7 @@
 void AAmmoPickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 
-    UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
+    //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
 
     if (OtherActor->IsA<ASeagull>())
     {
@@ -26,5 +26,5 @@ void AAmmoPickup::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor*
 {
     Super::OnOverlapEnd(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex);
 
-    UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapEnd()"));
+    //UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapEnd()"));
 }
