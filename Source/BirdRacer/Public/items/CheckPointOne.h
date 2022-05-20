@@ -27,7 +27,8 @@ public:
 
 
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
+		int GameMode = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Checkpoint")
 		int CheckPointNumber = 1;
