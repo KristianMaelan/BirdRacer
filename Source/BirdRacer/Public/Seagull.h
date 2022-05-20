@@ -117,5 +117,17 @@ public:
 	//Times pressed ctrl for change of camera angle
 	//int TimesPressed = 0;
 
-	//int Timer; 
+	//int Timer;
+
+	int32 GameTime{};
+	int32 LapTime1{};
+	int32 LapTime2{};
+	int32 LapTime3{};
+	int32 TotalTime{};
+
+
+
+	FTimerHandle TimeAttackTimer;
+
+	void AdvanceTimer();
 };

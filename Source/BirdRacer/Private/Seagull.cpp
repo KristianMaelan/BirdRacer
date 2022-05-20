@@ -2,6 +2,9 @@
 
 
 #include "Seagull.h"
+
+#include <string>
+
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Blueprint/UserWidget.h"
@@ -27,8 +30,8 @@ ASeagull::ASeagull()
 
     SpringArm->SetRelativeRotation(FRotator(-30.f, 0.f, 0.f));
     SpringArm->TargetArmLength = 1200.f; //1200.f
-    SpringArm->bEnableCameraLag = false;
-    SpringArm->CameraLagSpeed = 5.f;
+    SpringArm->bEnableCameraLag = true;
+    SpringArm->CameraLagSpeed = 3.f;
 
     SpringArm->SetupAttachment(GetRootComponent()); //GetRootComponent()
 
@@ -54,7 +57,7 @@ ASeagull::ASeagull()
     //Speed, Acceleration and Deceleration
     GetCharacterMovement()->MaxAcceleration = 5000.f;
     GetCharacterMovement()->BrakingDecelerationFlying = 500.f;
-    GetCharacterMovement()->MaxFlySpeed = 2000.f;
+    GetCharacterMovement()->MaxFlySpeed = 500.f;
 }
 
 // Called when the game starts or when spawned
@@ -65,8 +68,9 @@ void ASeagull::BeginPlay()
     MainPlayerController = Cast<AMainPlayerController>(GetController());
 
     GetCharacterMovement()->MovementMode = MOVE_Flying;
-    
 
+    GameTime = 0;
+    GetWorld()->GetTimerManager().SetTimer(TimeAttackTimer, this, &ASeagull::AdvanceTimer, 1.0f, true);
 }
 
 // Called every frame
@@ -122,7 +126,7 @@ void ASeagull::MoveForward(float value)
 
 void ASeagull::MoveSideways(float value)
 {
-    float TurnSpeed = value * 2; //Multiply by wanted quantity
+    float TurnSpeed = value * 1.5; //Multiply by wanted quantity
 
 	if (bGameCanPlay)
 	{
@@ -139,12 +143,14 @@ void ASeagull::Shoot()
         UWorld* World = GetWorld();
         if (World)
         {
+	        if (Ammo != 0)
+	        {
             FVector Location = GetActorLocation();
             
             //The projectile will be spawned in on center of Mesh
             World->SpawnActor<AActor>(ActorToSpawn, Location + FVector(0.f, 0.f, 0.f), GetActorRotation());
-            
-
+            Ammo--;
+	        }
         }
 
     UE_LOG(LogTemp, Warning, TEXT("Shooting"));
@@ -175,9 +181,7 @@ void ASeagull::LookBackwards()
 
 void ASeagull::IncrementBoost(int32 Amount)
 {
-    Boost += Amount; 
-
-    //Speed = Speed * Amount; eller Speed = Speed * (0.5 * Amount) elns
+    GetCharacterMovement()->MaxFlySpeed = 500 + ((Boost += Amount) * 50);
 }
 
 void ASeagull::ESCPushed()
@@ -207,13 +211,21 @@ void ASeagull::LapComplete()
     CheckPointReached[2] = false;
     CheckPointReached[3] = false;
 	UE_LOG(LogTemp, Warning, TEXT("CheckPoints Reset"));
-    //GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Lap time: "), Timer); 
-    //FString PrintTime = FString::Printf(TEXT("Lap time: %d"), (Timer.ToString()));
 
-   /* if (GEngine)
+
+    if (LapsCompleted == 1)
     {
-        GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, PrintTime);
-    }*/
+        LapTime1 = GameTime;
+    }
+    else if (LapsCompleted == 2)
+    {
+        LapTime2 = GameTime - LapTime1;
+    }
+    else if (LapsCompleted == 3)
+    {
+        TotalTime = GameTime;
+        LapTime3 = GameTime - (LapTime2 + LapTime1);
+    }
 }
 
 
@@ -227,7 +239,7 @@ void ASeagull::LevelCompleteLoad()
 
 
 
-        UE_LOG(LogTemp, Warning, TEXT("Time Attack Mode completed!"));
+        UE_LOG(LogTemp, Warning, TEXT("Time Attack Mode completed!"), TotalTime);
     GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
 	}
     else if (ActiveGameMode == 1)
@@ -258,3 +270,11 @@ void ASeagull::LoadMain()
 {
     UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
 }
+
+void ASeagull::AdvanceTimer()
+{
+    GameTime++;
+
+}
+
+

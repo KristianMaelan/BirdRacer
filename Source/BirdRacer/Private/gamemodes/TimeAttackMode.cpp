@@ -16,7 +16,6 @@ void ATimeAttackMode::BeginPlay()
 {
 	 PlayerGamer = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
 	 PlayerGamer->ActiveGameMode = 0;
-
 }
 
 void ATimeAttackMode::Tick(float DeltaSeconds)
@@ -32,16 +31,5 @@ void ATimeAttackMode::PlayerFinished()
 
 	UE_LOG(LogTemp, Warning, TEXT("Player has finished the level!"));
 
-
-	//ASeagull* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetPawn());
-	//PlayerGamer = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter());
-	//PlayerGamer->LevelCompleteLoad();
-
-	//GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ATimeAttackMode::GoToMainMenu, 1.f, false, 5.f);
 }
 
-void ATimeAttackMode::GoToMainMenu()
-{
-	//Wont work, gamemode isnt actor spawned in level, has been moved to Seagull
-	//UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
-}

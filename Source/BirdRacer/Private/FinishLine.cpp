@@ -16,7 +16,7 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 {
 	if (OtherActor && OtherActor != this)
 	{
-		if (OtherActor == Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter()))
+		if (OtherActor->IsA<ASeagull>())
 		{
 			
 		AActor* PlayerActor = Cast<ASeagull>(GetWorld()->GetFirstPlayerController()->GetCharacter());
@@ -30,10 +30,10 @@ void AFinishLine::OnOverlapBegin(AActor* OverlappedActor, AActor* OtherActor)
 				//UE_LOG(LogTemp, Warning, TEXT("Player has finished a lap!"));
 				Player1->RespawnLocation = GetActorLocation();
 				Player1->RespawnRotation = Player1->GetActorRotation();
+				Player1->LapsCompleted += 1;
 				Player1->LapComplete();
 
 
-				Player1->LapsCompleted += 1;
 			}
 			if (Player1->LapsCompleted == 3)
 			{

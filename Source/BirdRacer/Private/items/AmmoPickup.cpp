@@ -3,23 +3,21 @@
 
 #include "items/AmmoPickup.h"
 
+#include "Seagull.h"
+
 void AAmmoPickup::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-    Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
     UE_LOG(LogTemp, Warning, TEXT("Pickup::OnOverlapBegin()"));
 
-    if (OtherActor)
+    if (OtherActor->IsA<ASeagull>())
     {
+    Super::OnOverlapBegin(OverlappedComponent, OtherActor, OtherComp, OtherBodyIndex, bFromSweep, SweepResult);
 
         UE_LOG(LogTemp, Warning, TEXT("Ammo picked up!"));
-        //ASeagull* Player1 = Cast<ASeagull>(OtherActor);
+        ASeagull* Player1 = Cast<ASeagull>(OtherActor);
 
-       /* if (Player1)
-        {
-            Player1->Ammo += AmmoAdditionCount
-
-        }*/
+        Player1->Ammo += AmmoAdditionCount;
     }
 
 }

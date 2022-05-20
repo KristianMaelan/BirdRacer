@@ -29,11 +29,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "info")
 		void PlayerFinished();
-
-	UFUNCTION(BlueprintCallable, Category = "info")
-		void GoToMainMenu();
-
-	FTimerHandle FinishLineTimer;
+	
 
 
 };
