@@ -3,6 +3,7 @@
 #include "MainPlayerController.h"
 #include "Blueprint/UserWidget.h"
 #include "Engine/World.h"
+#include "Seagull.h"
 
 AMainPlayerController::AMainPlayerController()
 {
@@ -12,6 +13,16 @@ AMainPlayerController::AMainPlayerController()
 void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (CountdownAsset)
+	{
+		Countdown = CreateWidget<UUserWidget>(this, CountdownAsset);
+		if (Countdown)
+		{
+			Countdown->AddToViewport();
+			Countdown->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
 
 	if (WPauseMenu)
 	{
@@ -34,6 +45,36 @@ void AMainPlayerController::BeginPlay()
 	}
 	//HUDOverlay->AddToViewport();
 	//HUDOverlay->SetVisibility(ESlateVisibility::Visible);
+
+	if (TotalTimeAsset)
+	{
+		TotalTimeWidg = CreateWidget<UUserWidget>(this, TotalTimeAsset);
+		if (TotalTimeWidg)
+		{
+			TotalTimeWidg->AddToViewport();
+			TotalTimeWidg->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
+
+	if (NPCRaceLossAsset)
+	{
+		NPCRaceLoss = CreateWidget<UUserWidget>(this, NPCRaceLossAsset);
+		if (NPCRaceLoss)
+		{
+			NPCRaceLoss->AddToViewport();
+			NPCRaceLoss->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
+
+	if (NPCRaceWinAsset)
+	{
+		NPCRaceWin = CreateWidget<UUserWidget>(this, NPCRaceWinAsset);
+		if (NPCRaceWin)
+		{
+			NPCRaceWin->AddToViewport();
+			NPCRaceWin->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void AMainPlayerController::DisplayPauseMenu_Implementation()
@@ -63,6 +104,21 @@ void AMainPlayerController::RemovePauseMenu_Implementation()
 	bShowMouseCursor = false;
 
 	GameModeOnly();
+}
+
+void AMainPlayerController::ToggleNPCRaceWin()
+{
+	NPCRaceWin->SetVisibility(ESlateVisibility::Visible);
+}
+
+void AMainPlayerController::ToggleNPCRaceLoss()
+{
+	NPCRaceLoss->SetVisibility(ESlateVisibility::Visible);
+}
+
+void AMainPlayerController::ToggleTotalTime()
+{
+	TotalTimeWidg->SetVisibility(ESlateVisibility::Visible);
 }
 
 void AMainPlayerController::TogglePauseMenu()

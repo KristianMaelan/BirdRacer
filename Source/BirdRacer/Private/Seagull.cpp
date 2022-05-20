@@ -71,6 +71,13 @@ void ASeagull::BeginPlay()
 
     GameTime = 0;
     GetWorld()->GetTimerManager().SetTimer(TimeAttackTimer, this, &ASeagull::AdvanceTimer, 1.0f, true);
+
+    /*if (TotalTimeAsset)
+    {
+        TotalTimeWidg = CreateWidget<UUserWidget>(this, TotalTimeAsset);
+        TotalTimeWidg->AddToViewport();
+        TotalTimeWidg->SetVisibility(ESlateVisibility::Hidden);
+    }*/
 }
 
 // Called every frame
@@ -239,7 +246,11 @@ void ASeagull::LevelCompleteLoad()
 	if (ActiveGameMode == 0)
 	{
 
-
+       /* if (TotalTimeWidg)
+        {
+            TotalTimeWidg->SetVisibility(ESlateVisibility::Visible);
+        }*/
+        MainPlayerController->ToggleTotalTime();
 
 
         UE_LOG(LogTemp, Warning, TEXT("Time Attack Mode completed!"), TotalTime);

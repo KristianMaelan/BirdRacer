@@ -123,7 +123,15 @@ public:
 	int32 LapTime1{};
 	int32 LapTime2{};
 	int32 LapTime3{};
-	int32 TotalTime{};
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Seagull")
+		int32 TotalTime{};
+
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<class UUserWidget> TotalTimeAsset;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		UUserWidget* TotalTimeWidg;*/
 
 
 
