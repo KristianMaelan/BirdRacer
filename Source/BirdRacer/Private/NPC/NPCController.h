@@ -30,9 +30,28 @@ private:
 
 	class APawn* PlayerSeagull{};
 
-	class AActor* CPoint1{};
-	class AActor* CPoint2{};
-	class AActor* CPoint3{};
+
+	//Get checkpoint locations, 
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
+	FVector CPoint1{};
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
+	FVector CPoint2{};
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
+	FVector CPoint3{};
+
+	bool bUpdateNow = true;
+
+	UFUNCTION(BlueprintCallable)
+		void GetCheckpoints();
+
+	UFUNCTION(BlueprintCallable)
+		void NextLocationUpdate();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "NPC")
+		int LastCheckPoint = 1;
 
 
 };

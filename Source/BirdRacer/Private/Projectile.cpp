@@ -2,9 +2,12 @@
 
 
 #include "Projectile.h"
+
+#include "NPCBird.h"
 #include "Kismet/GameplayStatics.h"
 #include "Components/SphereComponent.h"
 #include "Seagull.h"
+#include "gamemodes/NPCRaceGameMode.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -30,6 +33,7 @@ void AProjectile::BeginPlay()
 
 	//Overlap function, add if needed
 	//BulletMesh->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::OnOverlap);
+	BulletMesh->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::OnOverlap);
 }
 
 // Called every frame
@@ -52,5 +56,12 @@ void AProjectile::Tick(float DeltaTime)
 
 void AProjectile::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherbodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	if (OtherActor->IsA<ANPCBird>())
+	{
+		UE_LOG(LogTemp, Error, TEXT("Hit enemy"));
+		ANPCRaceGameMode* NPCMode = Cast<ANPCRaceGameMode>(GetWorld()->GetAuthGameMode());
+		NPCMode->EnemiesKilled++;
+		OtherActor->Destroy();
+	}
 
 }

@@ -11,6 +11,7 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "gamemodes/NPCRaceGameMode.h"
 #include "Kismet/GameplayStatics.h"
 
 // Sets default values
@@ -197,6 +198,7 @@ void ASeagull::ESCReleased()
     bESCPushed = false;
 }
 
+//Resets all checkpoints and sets them as incomplete
 void ASeagull::LapComplete()
 {
     bCheckPointsComplete = false;
@@ -204,7 +206,7 @@ void ASeagull::LapComplete()
     CheckPointReached[1] = false;
     CheckPointReached[2] = false;
     CheckPointReached[3] = false;
-	//UE_LOG(LogTemp, Warning, TEXT("CheckPoints Reset"));
+	UE_LOG(LogTemp, Warning, TEXT("CheckPoints Reset"));
     //GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Lap time: "), Timer); 
     //FString PrintTime = FString::Printf(TEXT("Lap time: %d"), (Timer.ToString()));
 
@@ -218,9 +220,40 @@ void ASeagull::LapComplete()
 
 void ASeagull::LevelCompleteLoad()
 {
+    //0 = Time attack, 1 NPCRace
+	if (ActiveGameMode == 0)
+	{
+
+
+
+
+        UE_LOG(LogTemp, Warning, TEXT("Time Attack Mode completed!"));
     GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+	}
+    else if (ActiveGameMode == 1)
+	{
+        ANPCRaceGameMode* NPCMode = Cast<ANPCRaceGameMode>(GetWorld()->GetAuthGameMode());
+        //Player reached to target enemies killed!
+    	if (NPCMode->EnemiesKilled == NPCMode->EnemiesToKill)
+		{
+
+
+        UE_LOG(LogTemp, Warning, TEXT("NPCRace Gamemode completed! Player won!"));
+        GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+		}
+        else
+        {
+            //Player has failed to reach the minimum of birds to kill
+
+
+
+            UE_LOG(LogTemp, Warning, TEXT("NPCRace Gamemode completed! Player lost!"));
+            GetWorldTimerManager().SetTimer(FinishLineTimer, this, &ASeagull::LoadMain, 1.f, false, 5.f);
+        }
+	}
 }
 
+//Loads main menu, done in seagull because GetWorld Requires object, and it fit in here nicely with the other functions.
 void ASeagull::LoadMain()
 {
     UGameplayStatics::OpenLevel(GetWorld(), TEXT("MainMenuLevel"));
